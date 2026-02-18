@@ -1,0 +1,104 @@
+name: Merge Plugins
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'plugins/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install yq
+        run: |
+          sudo wget -qO /usr/local/bin/yq https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64
+          sudo chmod +x /usr/local/bin/yq
+
+      - name: Fetch stars and build merged registry
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "categories:" > dist/plugins.yml
+
+          for f in plugins/*.yml; do
+            cat=$(basename "$f" .yml)
+            echo "  - $cat" >> dist/plugins.yml
+          done
+
+          echo "" >> dist/plugins.yml
+          echo "plugins:" >> dist/plugins.yml
+
+          for f in plugins/*.yml; do
+            cat=$(basename "$f" .yml)
+            count=$(yq eval 'length' "$f")
+            if [ "$count" = "0" ]; then continue; fi
+
+            for i in $(seq 0 $(( count - 1 ))); do
+              repo=$(yq eval ".[$i].repo" "$f")
+              desc=$(yq eval ".[$i].description" "$f")
+              author=$(yq eval ".[$i].author" "$f")
+
+              stars=$(curl -s -H "Authorization: token $GH_TOKEN" \
+                "https://api.github.com/repos/$repo" | \
+                yq eval '.stargazers_count // 0' -)
+
+              yq eval -i ".[$i].stars = $stars" "$f"
+
+              echo "  - repo: $repo" >> dist/plugins.yml
+              echo "    description: \"$desc\"" >> dist/plugins.yml
+              echo "    author: $author" >> dist/plugins.yml
+              echo "    category: $cat" >> dist/plugins.yml
+              echo "    stars: $stars" >> dist/plugins.yml
+            done
+          done
+
+      - name: Generate README
+        run: |
+          {
+            echo "# tpack Plugin Registry"
+            echo ""
+            echo "Community-maintained plugin list for [tpack](https://github.com/tmuxpack/tpack)."
+            echo ""
+            echo "## Adding a Plugin"
+            echo ""
+            echo "See [CONTRIBUTING.md](CONTRIBUTING.md)."
+            echo ""
+
+            for f in plugins/*.yml; do
+              cat=$(basename "$f" .yml)
+              echo "## ${cat^}"
+              echo ""
+              echo "| Plugin | Description | Stars |"
+              echo "|--------|-------------|-------|"
+
+              count=$(yq eval 'length' "$f")
+              if [ "$count" = "0" ]; then
+                echo "| *No plugins yet* | | |"
+                echo ""
+                continue
+              fi
+
+              for i in $(seq 0 $(( count - 1 ))); do
+                repo=$(yq eval ".[$i].repo" "$f")
+                desc=$(yq eval ".[$i].description" "$f")
+                stars=$(yq eval ".[$i].stars // 0" "$f")
+                echo "| [$repo](https://github.com/$repo) | $desc | $stars |"
+              done
+              echo ""
+            done
+          } > README.md
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add dist/plugins.yml README.md plugins/*.yml
+          git diff --cached --quiet || git commit -m "ci: update registry and README"
+          git push

@@ -1,0 +1,134 @@
+- repo: tmux-plugins/tmux-battery
+  description: Battery percentage and icon indicator
+  author: tmux-plugins
+  stars: 0
+
+- repo: tmux-plugins/tmux-cpu
+  description: CPU usage percentage display
+  author: tmux-plugins
+  stars: 0
+
+- repo: tmux-plugins/tmux-online-status
+  description: Display online and offline status
+  author: tmux-plugins
+  stars: 0
+
+- repo: tmux-plugins/tmux-prefix-highlight
+  description: Highlights when prefix key is pressed
+  author: tmux-plugins
+  stars: 0
+
+- repo: thewtex/tmux-mem-cpu-load
+  description: CPU, RAM, and system load monitor
+  author: thewtex
+  stars: 0
+
+- repo: arl/gitmux
+  description: Show Git status in the status bar
+  author: arl
+  stars: 0
+
+- repo: MunifTanjim/tmux-mode-indicator
+  description: Display current active Tmux mode
+  author: MunifTanjim
+  stars: 0
+
+- repo: ofirgall/tmux-window-name
+  description: Smart automatic window naming
+  author: ofirgall
+  stars: 0
+
+- repo: xamut/tmux-network-bandwidth
+  description: Network bandwidth usage display
+  author: xamut
+  stars: 0
+
+- repo: olimorris/tmux-pomodoro-plus
+  description: Pomodoro timer integration
+  author: olimorris
+  stars: 0
+
+- repo: charlietag/tmux-split-statusbar
+  description: Split status bar into two rows
+  author: charlietag
+  stars: 0
+
+- repo: TheSast/tmux-transient-status
+  description: Auto-hide status bar when inactive
+  author: TheSast
+  stars: 0
+
+- repo: joshmedeski/tmux-nerd-font-window-name
+  description: Nerd Font icons for window names
+  author: joshmedeski
+  stars: 0
+
+- repo: alexanderjeurissen/tmux-world-clock
+  description: Display multiple timezone clocks
+  author: alexanderjeurissen
+  stars: 0
+
+- repo: kristijanhusak/tmux-simple-git-status
+  description: Show Git branch and change counts
+  author: kristijanhusak
+  stars: 0
+
+- repo: erikw/tmux-powerline
+  description: Dynamic powerline-style status bar segments
+  author: erikw
+  stars: 0
+
+- repo: tmux-plugins/tmux-net-speed
+  description: Upload and download speed monitor
+  author: tmux-plugins
+  stars: 0
+
+- repo: jonmosco/kube-tmux
+  description: Kubernetes context and namespace display
+  author: jonmosco
+  stars: 0
+
+- repo: anghootys/tmux-ip-address
+  description: Show public IP address in status bar
+  author: anghootys
+  stars: 0
+
+- repo: robhurring/tmux-uptime
+  description: Display system uptime in status line
+  author: robhurring
+  stars: 0
+
+- repo: tmux-plugins/tmux-maildir-counter
+  description: Count files in a mail directory
+  author: tmux-plugins
+  stars: 0
+
+- repo: spywhere/tmux-now-playing
+  description: Show currently playing track with controls
+  author: spywhere
+  stars: 0
+
+- repo: tmux-plugins/tmux-urlview
+  description: Quick opening of URLs from terminal
+  author: tmux-plugins
+  stars: 0
+
+- repo: samoshkin/tmux-plugin-sysstat
+  description: CPU, memory, swap, load average, and net I/O metrics
+  author: samoshkin
+  stars: 0
+
+- repo: fabioluciano/tmux-powerkit
+  description: Ultimate status bar framework with many widgets
+  author: fabioluciano
+  stars: 0
+
+- repo: barlevalon/tmux-nowplaying-macos
+  description: Display macOS system-wide Now Playing info
+  author: barlevalon
+  stars: 0
+
+- repo: playbahn/tmux-cpu-rs
+  description: Fast Rust-based CPU usage monitor
+  author: playbahn
+  stars: 0

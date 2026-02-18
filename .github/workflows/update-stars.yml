@@ -1,0 +1,125 @@
+name: Update Stars
+
+on:
+  schedule:
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-stars:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install yq
+        run: |
+          sudo wget -qO /usr/local/bin/yq https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64
+          sudo chmod +x /usr/local/bin/yq
+
+      - name: Update star counts
+        id: stars
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          changed=false
+          for f in plugins/*.yml; do
+            count=$(yq eval 'length' "$f")
+            if [ "$count" = "0" ]; then continue; fi
+
+            for i in $(seq 0 $(( count - 1 ))); do
+              repo=$(yq eval ".[$i].repo" "$f")
+              old_stars=$(yq eval ".[$i].stars // 0" "$f")
+
+              stars=$(curl -s -H "Authorization: token $GH_TOKEN" \
+                "https://api.github.com/repos/$repo" | \
+                yq eval '.stargazers_count // 0' -)
+
+              if [ "$stars" != "$old_stars" ]; then
+                yq eval -i ".[$i].stars = $stars" "$f"
+                changed=true
+              fi
+            done
+          done
+
+          echo "changed=$changed" >> "$GITHUB_OUTPUT"
+
+      - name: Rebuild merged registry
+        if: steps.stars.outputs.changed == 'true'
+        run: |
+          echo "categories:" > dist/plugins.yml
+
+          for f in plugins/*.yml; do
+            cat=$(basename "$f" .yml)
+            echo "  - $cat" >> dist/plugins.yml
+          done
+
+          echo "" >> dist/plugins.yml
+          echo "plugins:" >> dist/plugins.yml
+
+          for f in plugins/*.yml; do
+            cat=$(basename "$f" .yml)
+            count=$(yq eval 'length' "$f")
+            if [ "$count" = "0" ]; then continue; fi
+
+            for i in $(seq 0 $(( count - 1 ))); do
+              repo=$(yq eval ".[$i].repo" "$f")
+              desc=$(yq eval ".[$i].description" "$f")
+              author=$(yq eval ".[$i].author" "$f")
+              stars=$(yq eval ".[$i].stars // 0" "$f")
+
+              echo "  - repo: $repo" >> dist/plugins.yml
+              echo "    description: \"$desc\"" >> dist/plugins.yml
+              echo "    author: $author" >> dist/plugins.yml
+              echo "    category: $cat" >> dist/plugins.yml
+              echo "    stars: $stars" >> dist/plugins.yml
+            done
+          done
+
+      - name: Regenerate README
+        if: steps.stars.outputs.changed == 'true'
+        run: |
+          {
+            echo "# tpack Plugin Registry"
+            echo ""
+            echo "Community-maintained plugin list for [tpack](https://github.com/tmuxpack/tpack)."
+            echo ""
+            echo "## Adding a Plugin"
+            echo ""
+            echo "See [CONTRIBUTING.md](CONTRIBUTING.md)."
+            echo ""
+
+            for f in plugins/*.yml; do
+              cat=$(basename "$f" .yml)
+              echo "## ${cat^}"
+              echo ""
+              echo "| Plugin | Description | Stars |"
+              echo "|--------|-------------|-------|"
+
+              count=$(yq eval 'length' "$f")
+              if [ "$count" = "0" ]; then
+                echo "| *No plugins yet* | | |"
+                echo ""
+                continue
+              fi
+
+              for i in $(seq 0 $(( count - 1 ))); do
+                repo=$(yq eval ".[$i].repo" "$f")
+                desc=$(yq eval ".[$i].description" "$f")
+                stars=$(yq eval ".[$i].stars // 0" "$f")
+                echo "| [$repo](https://github.com/$repo) | $desc | $stars |"
+              done
+              echo ""
+            done
+          } > README.md
+
+      - name: Commit changes
+        if: steps.stars.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add plugins/*.yml dist/plugins.yml README.md
+          git diff --cached --quiet || git commit -m "ci: weekly star count update"
+          git push

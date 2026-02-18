@@ -1,0 +1,69 @@
+- repo: tmux-plugins/tmux-resurrect
+  description: Persists tmux environment across system restarts
+  author: tmux-plugins
+  stars: 0
+
+- repo: tmux-plugins/tmux-continuum
+  description: Continuous saving of tmux environment
+  author: tmux-plugins
+  stars: 0
+
+- repo: tmux-plugins/tmux-sessionist
+  description: Lightweight session manipulation utilities
+  author: tmux-plugins
+  stars: 0
+
+- repo: 27medkamal/tmux-session-wizard
+  description: Session creation with fzf and zoxide
+  author: 27medkamal
+  stars: 0
+
+- repo: thuanOwa/tmux-fzf-session-switch
+  description: Easy session switching with fzf
+  author: thuanOwa
+  stars: 0
+
+- repo: joshmedeski/sesh
+  description: Smart terminal session manager
+  author: joshmedeski
+  stars: 0
+
+- repo: omerxx/tmux-sessionx
+  description: Session manager with zoxide and fuzzy finding
+  author: omerxx
+  stars: 0
+
+- repo: MunifTanjim/tmux-suspend
+  description: Suspend local session for nested remote sessions
+  author: MunifTanjim
+  stars: 0
+
+- repo: 2KAbhishek/tmux-tea
+  description: Session manager with previews and tmuxinator support
+  author: 2KAbhishek
+  stars: 0
+
+- repo: spywhere/tmux-named-snapshot
+  description: Named snapshot support for tmux-resurrect
+  author: spywhere
+  stars: 0
+
+- repo: niqodea/tmux-nested
+  description: Support for arbitrary levels of nested sessions
+  author: niqodea
+  stars: 0
+
+- repo: lljbash/tmux-update-display
+  description: Update DISPLAY variable when reattaching sessions
+  author: lljbash
+  stars: 0
+
+- repo: bcampolo/tmux-lazy-restore
+  description: Lazy session restore with deferred command execution
+  author: bcampolo
+  stars: 0
+
+- repo: juancruzfl/tmux-canvas
+  description: Layout management with state persistence
+  author: juancruzfl
+  stars: 0

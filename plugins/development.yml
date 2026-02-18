@@ -1,0 +1,39 @@
+- repo: tmux-plugins/tmux-example-plugin
+  description: Example plugin template for developers
+  author: tmux-plugins
+  stars: 0
+
+- repo: tmux-plugins/tmux-test
+  description: Isolated testing framework for tmux plugins
+  author: tmux-plugins
+  stars: 0
+
+- repo: GianlucaP106/gotmux
+  description: Golang library for tmux interaction
+  author: GianlucaP106
+  stars: 0
+
+- repo: alexekdahl/tmux-compile
+  description: Run compile commands with automatic pane
+  author: alexekdahl
+  stars: 0
+
+- repo: idevtier/tmux-cargo
+  description: Run Cargo commands from tmux
+  author: idevtier
+  stars: 0
+
+- repo: AngryMorrocoy/tmux-neolazygit
+  description: Lazygit integration with tmux and neovim
+  author: AngryMorrocoy
+  stars: 0
+
+- repo: KakkoiDev/tmux-worktree
+  description: Git worktree management with native tmux menus
+  author: KakkoiDev
+  stars: 0
+
+- repo: NigelGreenway/tmux-git-worktree
+  description: Create and switch between git worktrees in tmux
+  author: NigelGreenway
+  stars: 0

@@ -1,0 +1,91 @@
+name: Validate PR
+
+on:
+  pull_request:
+    paths:
+      - 'plugins/**'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install yq
+        run: |
+          sudo wget -qO /usr/local/bin/yq https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64
+          sudo chmod +x /usr/local/bin/yq
+
+      - name: Validate YAML syntax
+        run: |
+          for f in plugins/*.yml; do
+            yq eval '.' "$f" > /dev/null || { echo "Invalid YAML: $f"; exit 1; }
+          done
+
+      - name: Validate required fields
+        run: |
+          for f in plugins/*.yml; do
+            count=$(yq eval 'length' "$f")
+            if [ "$count" = "0" ]; then
+              continue
+            fi
+            for i in $(seq 0 $(( count - 1 ))); do
+              repo=$(yq eval ".[$i].repo" "$f")
+              desc=$(yq eval ".[$i].description" "$f")
+              author=$(yq eval ".[$i].author" "$f")
+              if [ "$repo" = "null" ] || [ -z "$repo" ]; then
+                echo "Missing repo in $f entry $i"; exit 1
+              fi
+              if [ "$desc" = "null" ] || [ -z "$desc" ]; then
+                echo "Missing description in $f entry $i"; exit 1
+              fi
+              if [ "$author" = "null" ] || [ -z "$author" ]; then
+                echo "Missing author in $f entry $i"; exit 1
+              fi
+              if ! echo "$repo" | grep -qE '^[a-zA-Z0-9._-]+/[a-zA-Z0-9._-]+$'; then
+                echo "Invalid repo format: $repo in $f"; exit 1
+              fi
+              desc_len=${#desc}
+              if [ "$desc_len" -lt 10 ] || [ "$desc_len" -gt 200 ]; then
+                echo "Description length $desc_len out of range (10-200) in $f entry $i"; exit 1
+              fi
+            done
+          done
+
+      - name: Check for duplicate repos
+        run: |
+          repos=$(for f in plugins/*.yml; do
+            yq eval '.[].repo' "$f" 2>/dev/null
+          done | sort)
+          dupes=$(echo "$repos" | uniq -d)
+          if [ -n "$dupes" ]; then
+            echo "Duplicate repos found: $dupes"; exit 1
+          fi
+
+      - name: Check stars not modified by contributor
+        run: |
+          git diff --name-only origin/main...HEAD -- 'plugins/*.yml' | while read f; do
+            if [ ! -f "$f" ]; then continue; fi
+            diff_output=$(git diff origin/main...HEAD -- "$f")
+            if echo "$diff_output" | grep -qE '^\+.*stars:'; then
+              echo "Stars field should not be added/modified in $f"; exit 1
+            fi
+          done
+
+      - name: Verify repos exist on GitHub
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          for f in plugins/*.yml; do
+            count=$(yq eval 'length' "$f")
+            if [ "$count" = "0" ]; then continue; fi
+            for i in $(seq 0 $(( count - 1 ))); do
+              repo=$(yq eval ".[$i].repo" "$f")
+              status=$(curl -s -o /dev/null -w "%{http_code}" \
+                -H "Authorization: token $GH_TOKEN" \
+                "https://api.github.com/repos/$repo")
+              if [ "$status" != "200" ]; then
+                echo "Repo not found: $repo (HTTP $status)"; exit 1
+              fi
+            done
+          done
