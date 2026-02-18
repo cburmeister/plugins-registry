@@ -1,79 +1,64 @@
 - repo: tmux-plugins/tmux-pain-control
   description: Standard pane key-bindings for tmux
   author: tmux-plugins
-  stars: 0
-
+  stars: 829
 - repo: christoomey/vim-tmux-navigator
   description: Seamless navigation between Vim and tmux
   author: christoomey
-  stars: 0
-
+  stars: 6068
 - repo: Morantron/tmux-fingers
   description: Vimium-like copy and paste hints
   author: Morantron
-  stars: 0
-
+  stars: 1333
 - repo: fcsonline/tmux-thumbs
   description: Fast copy and paste with Rust-powered hints
   author: fcsonline
-  stars: 0
-
+  stars: 1036
 - repo: schasse/tmux-jump
   description: Vimium and Easymotion-like navigation
   author: schasse
-  stars: 0
-
+  stars: 430
 - repo: wfxr/tmux-fzf-url
   description: Quick URL opening with fzf
   author: wfxr
-  stars: 0
-
+  stars: 647
 - repo: roosta/tmux-fuzzback
   description: Search scrollback buffer with fzf
   author: roosta
-  stars: 0
-
+  stars: 172
 - repo: IngoMeyer441/tmux-easy-motion
   description: Vim-easymotion-like pane navigation
   author: IngoMeyer441
-  stars: 0
-
+  stars: 98
 - repo: jaclu/tmux-power-zoom
   description: Zoom pane to a separate window
   author: jaclu
-  stars: 0
-
+  stars: 62
 - repo: greymd/tmux-xpanes
   description: Terminal divider and pane utility
   author: greymd
-  stars: 0
-
+  stars: 2072
 - repo: jaclu/tmux-mouse-swipe
   description: Switch window or session with right-click swipe
   author: jaclu
-  stars: 0
-
+  stars: 20
 - repo: abhinav/tmux-fastcopy
   description: Easymotion-style text copying
   author: abhinav
-  stars: 0
-
+  stars: 82
 - repo: alberti42/tmux-fzf-links
   description: Open any type of link with fzf
   author: alberti42
-  stars: 0
-
+  stars: 37
 - repo: kristopolous/tmux-gentrify
   description: Cut and paste panes between windows
   author: kristopolous
-  stars: 0
-
+  stars: 11
 - repo: artemave/tmux_super_fingers
   description: Open file links from terminal in Vim
   author: artemave
-  stars: 0
-
+  stars: 100
 - repo: Kristijan/flash-copy.tmux
   description: Flash.nvim-style word jumping and copying
   author: Kristijan
-  stars: 0
+  stars: 36
