@@ -105,12 +105,19 @@ jobs:
                 continue
               fi
 
+              tmpfile=$(mktemp)
               for i in $(seq 0 $(( count - 1 ))); do
                 repo=$(yq eval ".[$i].repo" "$f")
                 desc=$(yq eval ".[$i].description" "$f")
                 stars=$(yq eval ".[$i].stars // 0" "$f")
-                echo "| [$repo](https://github.com/$repo) | $desc | $stars |"
+                name="${repo#*/}"
+                owner="${repo%%/*}"
+                printf '%s\t%s\t%s\t%s\t%s\n' "$name" "$owner" "$repo" "$desc" "$stars" >> "$tmpfile"
               done
+              sort -t$'\t' -k1,1 -f "$tmpfile" | while IFS=$'\t' read -r name owner repo desc stars; do
+                echo "| <sub>${owner}/</sub>[**${name}**](https://github.com/${repo}) | ${desc} | ${stars} |"
+              done
+              rm -f "$tmpfile"
               echo ""
             done
           } > README.md
