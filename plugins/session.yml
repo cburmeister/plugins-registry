@@ -53,4 +53,9 @@
 - repo: juancruzfl/tmux-canvas
   description: Layout management with state persistence
   author: juancruzfl
-  stars: 6
+  stars: 0
+
+- repo: binoymanoj/tmux-zenflow
+  description: Zen workflow session manager for tmux
+  author: binoymanoj
+  stars: 0

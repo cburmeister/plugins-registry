@@ -74,3 +74,18 @@
   description: Simple and minimalist dot-style status bar theme
   author: Valeyard1
   stars: 0
+
+- repo: thekylehuang/cole-tmux
+  description: Stationery-inspired minimal theme with vintage earth tones
+  author: thekylehuang
+  stars: 0
+
+- repo: tarquibrian/vanzi
+  description: Clean and minimalist tmux theme
+  author: tarquibrian
+  stars: 0
+
+- repo: binoymanoj/tmux-minimal-theme
+  description: Clean minimal customizable theme with built-in system monitoring
+  author: binoymanoj
+  stars: 0

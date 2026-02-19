@@ -125,4 +125,14 @@
 - repo: loichyan/tmux-toggle-popup
   description: Create toggleable popup windows
   author: loichyan
-  stars: 24
+  stars: 0
+
+- repo: YlanAllouche/tmux-task-monitor
+  description: Session-grouped process monitor popup TUI
+  author: YlanAllouche
+  stars: 0
+
+- repo: dianoga-theory/tmux-poltergeist
+  description: Insert text into terminal from paste buffers
+  author: dianoga-theory
+  stars: 0
