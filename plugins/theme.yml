@@ -1,7 +1,7 @@
 - repo: catppuccin/tmux
   description: Soothing pastel theme for Tmux
   author: catppuccin
-  stars: 2822
+  stars: 2823
 - repo: dracula/tmux
   description: Dark theme for Tmux
   author: dracula
@@ -33,7 +33,7 @@
 - repo: janoamaral/tokyo-night-tmux
   description: Tokyo Night color scheme for Tmux
   author: janoamaral
-  stars: 532
+  stars: 533
 - repo: Nybkox/tmux-kanagawa
   description: Dark color scheme inspired by Hokusai artwork
   author: Nybkox
@@ -74,18 +74,15 @@
   description: Simple and minimalist dot-style status bar theme
   author: Valeyard1
   stars: 0
-
 - repo: thekylehuang/cole-tmux
   description: Stationery-inspired minimal theme with vintage earth tones
   author: thekylehuang
   stars: 0
-
 - repo: tarquibrian/vanzi
   description: Clean and minimalist tmux theme
   author: tarquibrian
-  stars: 0
-
+  stars: 7
 - repo: binoymanoj/tmux-minimal-theme
   description: Clean minimal customizable theme with built-in system monitoring
   author: binoymanoj
-  stars: 0
+  stars: 36

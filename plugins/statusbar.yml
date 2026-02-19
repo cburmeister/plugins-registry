@@ -1,7 +1,7 @@
 - repo: tmux-plugins/tmux-battery
   description: Battery percentage and icon indicator
   author: tmux-plugins
-  stars: 554
+  stars: 555
 - repo: tmux-plugins/tmux-cpu
   description: CPU usage percentage display
   author: tmux-plugins
@@ -21,7 +21,7 @@
 - repo: arl/gitmux
   description: Show Git status in the status bar
   author: arl
-  stars: 759
+  stars: 758
 - repo: MunifTanjim/tmux-mode-indicator
   description: Display current active Tmux mode
   author: MunifTanjim
@@ -61,7 +61,7 @@
 - repo: erikw/tmux-powerline
   description: Dynamic powerline-style status bar segments
   author: erikw
-  stars: 3715
+  stars: 3716
 - repo: tmux-plugins/tmux-net-speed
   description: Upload and download speed monitor
   author: tmux-plugins
@@ -105,29 +105,24 @@
 - repo: playbahn/tmux-cpu-rs
   description: Fast Rust-based CPU usage monitor
   author: playbahn
-  stars: 0
-
+  stars: 3
 - repo: jtmcginty/tmux-session-dots
   description: Visual session indicator showing all sessions as dots
   author: jtmcginty
   stars: 0
-
 - repo: accessd/tmux-agent-indicator
   description: Visual feedback for AI agent states in pane borders and status bar
   author: accessd
-  stars: 0
-
+  stars: 13
 - repo: odtgit/tmux-mpris
   description: MPRIS now-playing media widget using playerctl
   author: odtgit
   stars: 0
-
 - repo: odtgit/tmux-cinnamon-notify
   description: Cinnamon desktop notification widget for status bar
   author: odtgit
   stars: 0
-
 - repo: theo64oliver/tmux-code-time
   description: Track and display session duration in the status bar
   author: theo64oliver
-  stars: 0
+  stars: 5
