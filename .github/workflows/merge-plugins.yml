@@ -95,7 +95,7 @@ jobs:
                 printf '%s\t%s\t%s\t%s\t%s\n' "$name" "$owner" "$repo" "$desc" "$stars" >> "$tmpfile"
               done
               sort -t$'\t' -k1,1 -f "$tmpfile" | while IFS=$'\t' read -r name owner repo desc stars; do
-                echo "| <sub>${owner}/</sub>[**${name}**](https://github.com/${repo}) | ${desc} | ${stars} |"
+                echo "| ${owner}/[**${name}**](https://github.com/${repo}) | ${desc} | ${stars} |"
               done
               rm -f "$tmpfile"
               echo ""
