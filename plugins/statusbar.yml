@@ -1,11 +1,11 @@
 - repo: tmux-plugins/tmux-battery
   description: Battery percentage and icon indicator
   author: tmux-plugins
-  stars: 555
+  stars: 556
 - repo: tmux-plugins/tmux-cpu
   description: CPU usage percentage display
   author: tmux-plugins
-  stars: 509
+  stars: 511
 - repo: tmux-plugins/tmux-online-status
   description: Display online and offline status
   author: tmux-plugins
@@ -13,15 +13,15 @@
 - repo: tmux-plugins/tmux-prefix-highlight
   description: Highlights when prefix key is pressed
   author: tmux-plugins
-  stars: 653
+  stars: 655
 - repo: thewtex/tmux-mem-cpu-load
   description: CPU, RAM, and system load monitor
   author: thewtex
-  stars: 1090
+  stars: 1091
 - repo: arl/gitmux
   description: Show Git status in the status bar
   author: arl
-  stars: 758
+  stars: 757
 - repo: MunifTanjim/tmux-mode-indicator
   description: Display current active Tmux mode
   author: MunifTanjim
@@ -37,7 +37,7 @@
 - repo: olimorris/tmux-pomodoro-plus
   description: Pomodoro timer integration
   author: olimorris
-  stars: 440
+  stars: 441
 - repo: charlietag/tmux-split-statusbar
   description: Split status bar into two rows
   author: charlietag
@@ -61,7 +61,7 @@
 - repo: erikw/tmux-powerline
   description: Dynamic powerline-style status bar segments
   author: erikw
-  stars: 3716
+  stars: 3717
 - repo: tmux-plugins/tmux-net-speed
   description: Upload and download speed monitor
   author: tmux-plugins
@@ -97,7 +97,7 @@
 - repo: fabioluciano/tmux-powerkit
   description: Ultimate status bar framework with many widgets
   author: fabioluciano
-  stars: 475
+  stars: 480
 - repo: barlevalon/tmux-nowplaying-macos
   description: Display macOS system-wide Now Playing info
   author: barlevalon
@@ -113,7 +113,7 @@
 - repo: accessd/tmux-agent-indicator
   description: Visual feedback for AI agent states in pane borders and status bar
   author: accessd
-  stars: 13
+  stars: 14
 - repo: odtgit/tmux-mpris
   description: MPRIS now-playing media widget using playerctl
   author: odtgit

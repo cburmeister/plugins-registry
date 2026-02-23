@@ -1,7 +1,7 @@
 - repo: tmux-plugins/tmux-example-plugin
   description: Example plugin template for developers
   author: tmux-plugins
-  stars: 49
+  stars: 48
 - repo: tmux-plugins/tmux-test
   description: Isolated testing framework for tmux plugins
   author: tmux-plugins
@@ -25,7 +25,7 @@
 - repo: KakkoiDev/tmux-worktree
   description: Git worktree management with native tmux menus
   author: KakkoiDev
-  stars: 20
+  stars: 21
 - repo: NigelGreenway/tmux-git-worktree
   description: Create and switch between git worktrees in tmux
   author: NigelGreenway
