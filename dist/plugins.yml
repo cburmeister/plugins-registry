@@ -21,7 +21,7 @@ plugins:
     description: "Golang library for tmux interaction"
     author: GianlucaP106
     category: development
-    stars: 45
+    stars: 46
   - repo: alexekdahl/tmux-compile
     description: "Run compile commands with automatic pane"
     author: alexekdahl
@@ -41,7 +41,7 @@ plugins:
     description: "Git worktree management with native tmux menus"
     author: KakkoiDev
     category: development
-    stars: 21
+    stars: 22
   - repo: NigelGreenway/tmux-git-worktree
     description: "Create and switch between git worktrees in tmux"
     author: NigelGreenway
@@ -51,17 +51,17 @@ plugins:
     description: "Standard pane key-bindings for tmux"
     author: tmux-plugins
     category: navigation
-    stars: 830
+    stars: 833
   - repo: christoomey/vim-tmux-navigator
     description: "Seamless navigation between Vim and tmux"
     author: christoomey
     category: navigation
-    stars: 6079
+    stars: 6093
   - repo: Morantron/tmux-fingers
     description: "Vimium-like copy and paste hints"
     author: Morantron
     category: navigation
-    stars: 1335
+    stars: 1346
   - repo: fcsonline/tmux-thumbs
     description: "Fast copy and paste with Rust-powered hints"
     author: fcsonline
@@ -71,22 +71,22 @@ plugins:
     description: "Vimium and Easymotion-like navigation"
     author: schasse
     category: navigation
-    stars: 430
+    stars: 433
   - repo: wfxr/tmux-fzf-url
     description: "Quick URL opening with fzf"
     author: wfxr
     category: navigation
-    stars: 649
+    stars: 653
   - repo: roosta/tmux-fuzzback
     description: "Search scrollback buffer with fzf"
     author: roosta
     category: navigation
-    stars: 172
+    stars: 175
   - repo: IngoMeyer441/tmux-easy-motion
     description: "Vim-easymotion-like pane navigation"
     author: IngoMeyer441
     category: navigation
-    stars: 98
+    stars: 99
   - repo: jaclu/tmux-power-zoom
     description: "Zoom pane to a separate window"
     author: jaclu
@@ -96,12 +96,12 @@ plugins:
     description: "Terminal divider and pane utility"
     author: greymd
     category: navigation
-    stars: 2073
+    stars: 2072
   - repo: jaclu/tmux-mouse-swipe
     description: "Switch window or session with right-click swipe"
     author: jaclu
     category: navigation
-    stars: 20
+    stars: 21
   - repo: abhinav/tmux-fastcopy
     description: "Easymotion-style text copying"
     author: abhinav
@@ -111,7 +111,7 @@ plugins:
     description: "Open any type of link with fzf"
     author: alberti42
     category: navigation
-    stars: 37
+    stars: 38
   - repo: kristopolous/tmux-gentrify
     description: "Cut and paste panes between windows"
     author: kristopolous
@@ -131,12 +131,12 @@ plugins:
     description: "Persists tmux environment across system restarts"
     author: tmux-plugins
     category: session
-    stars: 12471
+    stars: 12487
   - repo: tmux-plugins/tmux-continuum
     description: "Continuous saving of tmux environment"
     author: tmux-plugins
     category: session
-    stars: 3818
+    stars: 3832
   - repo: tmux-plugins/tmux-sessionist
     description: "Lightweight session manipulation utilities"
     author: tmux-plugins
@@ -156,12 +156,12 @@ plugins:
     description: "Smart terminal session manager"
     author: joshmedeski
     category: session
-    stars: 1751
+    stars: 1778
   - repo: omerxx/tmux-sessionx
     description: "Session manager with zoxide and fuzzy finding"
     author: omerxx
     category: session
-    stars: 1185
+    stars: 1193
   - repo: MunifTanjim/tmux-suspend
     description: "Suspend local session for nested remote sessions"
     author: MunifTanjim
@@ -171,7 +171,7 @@ plugins:
     description: "Session manager with previews and tmuxinator support"
     author: 2KAbhishek
     category: session
-    stars: 76
+    stars: 77
   - repo: spywhere/tmux-named-snapshot
     description: "Named snapshot support for tmux-resurrect"
     author: spywhere
@@ -196,7 +196,7 @@ plugins:
     description: "Layout management with state persistence"
     author: juancruzfl
     category: session
-    stars: 6
+    stars: 7
   - repo: binoymanoj/tmux-zenflow
     description: "Zen workflow session manager for tmux"
     author: binoymanoj
@@ -206,12 +206,12 @@ plugins:
     description: "Battery percentage and icon indicator"
     author: tmux-plugins
     category: statusbar
-    stars: 556
+    stars: 557
   - repo: tmux-plugins/tmux-cpu
     description: "CPU usage percentage display"
     author: tmux-plugins
     category: statusbar
-    stars: 511
+    stars: 512
   - repo: tmux-plugins/tmux-online-status
     description: "Display online and offline status"
     author: tmux-plugins
@@ -226,12 +226,12 @@ plugins:
     description: "CPU, RAM, and system load monitor"
     author: thewtex
     category: statusbar
-    stars: 1091
+    stars: 1093
   - repo: arl/gitmux
     description: "Show Git status in the status bar"
     author: arl
     category: statusbar
-    stars: 757
+    stars: 760
   - repo: MunifTanjim/tmux-mode-indicator
     description: "Display current active Tmux mode"
     author: MunifTanjim
@@ -241,7 +241,7 @@ plugins:
     description: "Smart automatic window naming"
     author: ofirgall
     category: statusbar
-    stars: 273
+    stars: 274
   - repo: xamut/tmux-network-bandwidth
     description: "Network bandwidth usage display"
     author: xamut
@@ -251,7 +251,7 @@ plugins:
     description: "Pomodoro timer integration"
     author: olimorris
     category: statusbar
-    stars: 441
+    stars: 446
   - repo: charlietag/tmux-split-statusbar
     description: "Split status bar into two rows"
     author: charlietag
@@ -276,12 +276,12 @@ plugins:
     description: "Show Git branch and change counts"
     author: kristijanhusak
     category: statusbar
-    stars: 30
+    stars: 31
   - repo: erikw/tmux-powerline
     description: "Dynamic powerline-style status bar segments"
     author: erikw
     category: statusbar
-    stars: 3717
+    stars: 3724
   - repo: tmux-plugins/tmux-net-speed
     description: "Upload and download speed monitor"
     author: tmux-plugins
@@ -311,7 +311,7 @@ plugins:
     description: "Show currently playing track with controls"
     author: spywhere
     category: statusbar
-    stars: 42
+    stars: 43
   - repo: tmux-plugins/tmux-urlview
     description: "Quick opening of URLs from terminal"
     author: tmux-plugins
@@ -326,7 +326,7 @@ plugins:
     description: "Ultimate status bar framework with many widgets"
     author: fabioluciano
     category: statusbar
-    stars: 480
+    stars: 484
   - repo: barlevalon/tmux-nowplaying-macos
     description: "Display macOS system-wide Now Playing info"
     author: barlevalon
@@ -341,12 +341,12 @@ plugins:
     description: "Visual session indicator showing all sessions as dots"
     author: jtmcginty
     category: statusbar
-    stars: 0
+    stars: 3
   - repo: accessd/tmux-agent-indicator
     description: "Visual feedback for AI agent states in pane borders and status bar"
     author: accessd
     category: statusbar
-    stars: 14
+    stars: 19
   - repo: odtgit/tmux-mpris
     description: "MPRIS now-playing media widget using playerctl"
     author: odtgit
@@ -366,12 +366,12 @@ plugins:
     description: "Soothing pastel theme for Tmux"
     author: catppuccin
     category: theme
-    stars: 2830
+    stars: 2847
   - repo: dracula/tmux
     description: "Dark theme for Tmux"
     author: dracula
     category: theme
-    stars: 800
+    stars: 804
   - repo: arcticicestudio/nord-tmux
     description: "Arctic north-bluish clean color theme"
     author: arcticicestudio
@@ -381,12 +381,12 @@ plugins:
     description: "Soho vibes aesthetic theme for Tmux"
     author: rose-pine
     category: theme
-    stars: 251
+    stars: 252
   - repo: egel/tmux-gruvbox
     description: "Light and dark gruvbox color scheme"
     author: egel
     category: theme
-    stars: 661
+    stars: 662
   - repo: o0th/tmux-nova
     description: "Fully customizable theme system for Tmux"
     author: o0th
@@ -396,7 +396,7 @@ plugins:
     description: "Eight powerline-style theme variants"
     author: wfxr
     category: theme
-    stars: 663
+    stars: 665
   - repo: jimeh/tmux-themepack
     description: "Collection of various themes for Tmux"
     author: jimeh
@@ -406,7 +406,7 @@ plugins:
     description: "Tokyo Night color scheme for Tmux"
     author: janoamaral
     category: theme
-    stars: 535
+    stars: 536
   - repo: Nybkox/tmux-kanagawa
     description: "Dark color scheme inspired by Hokusai artwork"
     author: Nybkox
@@ -421,22 +421,22 @@ plugins:
     description: "Customizable powerline status bar framework"
     author: 2KAbhishek
     category: theme
-    stars: 379
+    stars: 378
   - repo: niksingh710/minimal-tmux-status
     description: "Minimal and clean status bar theme"
     author: niksingh710
     category: theme
-    stars: 253
+    stars: 254
   - repo: erikw/tmux-dark-notify
     description: "Auto-switch dark and light mode on macOS"
     author: erikw
     category: theme
-    stars: 83
+    stars: 85
   - repo: ivnvxd/tmux-snazzy
     description: "Elegant theme with bright colors"
     author: ivnvxd
     category: theme
-    stars: 23
+    stars: 24
   - repo: leighmcculloch/tmux-colours-superhero
     description: "Superhero themed color scheme"
     author: leighmcculloch
@@ -461,7 +461,7 @@ plugins:
     description: "Stationery-inspired minimal theme with vintage earth tones"
     author: thekylehuang
     category: theme
-    stars: 0
+    stars: 1
   - repo: tarquibrian/vanzi
     description: "Clean and minimalist tmux theme"
     author: tarquibrian
@@ -476,17 +476,17 @@ plugins:
     description: "A set of tmux options that should be acceptable to everyone"
     author: tmux-plugins
     category: utility
-    stars: 2112
+    stars: 2117
   - repo: tmux-plugins/tmux-yank
     description: "Tmux plugin for copying to system clipboard"
     author: tmux-plugins
     category: utility
-    stars: 3031
+    stars: 3035
   - repo: tmux-plugins/tmux-copycat
     description: "Enhanced tmux search with regex support"
     author: tmux-plugins
     category: utility
-    stars: 1179
+    stars: 1181
   - repo: tmux-plugins/tmux-open
     description: "Open highlighted files and URLs from copy mode"
     author: tmux-plugins
@@ -496,12 +496,12 @@ plugins:
     description: "Logging and screen capturing utilities"
     author: tmux-plugins
     category: utility
-    stars: 1203
+    stars: 1206
   - repo: tmux-plugins/tmux-sidebar
     description: "Directory tree sidebar for navigation"
     author: tmux-plugins
     category: utility
-    stars: 612
+    stars: 614
   - repo: tmux-plugins/tmux-fpp
     description: "Quick opening of file paths in editor"
     author: tmux-plugins
@@ -511,12 +511,12 @@ plugins:
     description: "Clipboard copy and fzf completions from output"
     author: laktak
     category: utility
-    stars: 1073
+    stars: 1077
   - repo: NHDaly/tmux-better-mouse-mode
     description: "Better mouse scroll and click configuration"
     author: NHDaly
     category: utility
-    stars: 963
+    stars: 964
   - repo: b0o/tmux-autoreload
     description: "Automatically reload config file on change"
     author: b0o
@@ -526,22 +526,22 @@ plugins:
     description: "Popup menus for environment management"
     author: jaclu
     category: utility
-    stars: 467
+    stars: 468
   - repo: jabirali/tmux-tilish
     description: "Tiling window manager features inspired by i3"
     author: jabirali
     category: utility
-    stars: 482
+    stars: 483
   - repo: 2KAbhishek/tmux-tilit
     description: "Tiling window manager keybindings"
     author: 2KAbhishek
     category: utility
-    stars: 74
+    stars: 75
   - repo: rickstaa/tmux-notify
     description: "Notify when long-running processes finish"
     author: rickstaa
     category: utility
-    stars: 229
+    stars: 232
   - repo: whame/tmux-modal
     description: "Modal mode for executing complex commands"
     author: whame
@@ -556,7 +556,7 @@ plugins:
     description: "Keybinding search palette with fzf"
     author: lost-melody
     category: utility
-    stars: 28
+    stars: 30
   - repo: Alkindi42/tmux-bitwarden
     description: "Access Bitwarden login items from tmux"
     author: Alkindi42
@@ -566,17 +566,17 @@ plugins:
     description: "Access 1Password items from tmux"
     author: yardnsm
     category: utility
-    stars: 270
+    stars: 271
   - repo: azorng/tmux-smooth-scroll
     description: "Smooth scrolling in copy mode"
     author: azorng
     category: utility
-    stars: 50
+    stars: 54
   - repo: graemedavidson/tmux-pane-focus
     description: "Auto-resizing focused pane splits"
     author: graemedavidson
     category: utility
-    stars: 20
+    stars: 21
   - repo: tmux-plugins/tmux-cowboy
     description: "Kill hanging processes quickly"
     author: tmux-plugins
@@ -586,12 +586,12 @@ plugins:
     description: "Manage tmux environment with fzf"
     author: sainnhe
     category: utility
-    stars: 1339
+    stars: 1344
   - repo: alexwforsythe/tmux-which-key
     description: "Customizable popup menu for keybinding discovery"
     author: alexwforsythe
     category: utility
-    stars: 236
+    stars: 239
   - repo: lloydbond/tmux-floating-terminal
     description: "Popup floating terminal window"
     author: lloydbond
@@ -626,7 +626,7 @@ plugins:
     description: "Interactive script playbooks for the terminal"
     author: laktak
     category: utility
-    stars: 155
+    stars: 156
   - repo: loichyan/tmux-toggle-popup
     description: "Create toggleable popup windows"
     author: loichyan
@@ -636,7 +636,7 @@ plugins:
     description: "Session-grouped process monitor popup TUI"
     author: YlanAllouche
     category: utility
-    stars: 30
+    stars: 33
   - repo: dianoga-theory/tmux-poltergeist
     description: "Insert text into terminal from paste buffers"
     author: dianoga-theory

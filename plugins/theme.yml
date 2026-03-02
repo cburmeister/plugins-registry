@@ -1,11 +1,11 @@
 - repo: catppuccin/tmux
   description: Soothing pastel theme for Tmux
   author: catppuccin
-  stars: 2830
+  stars: 2847
 - repo: dracula/tmux
   description: Dark theme for Tmux
   author: dracula
-  stars: 800
+  stars: 804
 - repo: arcticicestudio/nord-tmux
   description: Arctic north-bluish clean color theme
   author: arcticicestudio
@@ -13,11 +13,11 @@
 - repo: rose-pine/tmux
   description: Soho vibes aesthetic theme for Tmux
   author: rose-pine
-  stars: 251
+  stars: 252
 - repo: egel/tmux-gruvbox
   description: Light and dark gruvbox color scheme
   author: egel
-  stars: 661
+  stars: 662
 - repo: o0th/tmux-nova
   description: Fully customizable theme system for Tmux
   author: o0th
@@ -25,7 +25,7 @@
 - repo: wfxr/tmux-power
   description: Eight powerline-style theme variants
   author: wfxr
-  stars: 663
+  stars: 665
 - repo: jimeh/tmux-themepack
   description: Collection of various themes for Tmux
   author: jimeh
@@ -33,7 +33,7 @@
 - repo: janoamaral/tokyo-night-tmux
   description: Tokyo Night color scheme for Tmux
   author: janoamaral
-  stars: 535
+  stars: 536
 - repo: Nybkox/tmux-kanagawa
   description: Dark color scheme inspired by Hokusai artwork
   author: Nybkox
@@ -45,19 +45,19 @@
 - repo: 2KAbhishek/tmux2k
   description: Customizable powerline status bar framework
   author: 2KAbhishek
-  stars: 379
+  stars: 378
 - repo: niksingh710/minimal-tmux-status
   description: Minimal and clean status bar theme
   author: niksingh710
-  stars: 253
+  stars: 254
 - repo: erikw/tmux-dark-notify
   description: Auto-switch dark and light mode on macOS
   author: erikw
-  stars: 83
+  stars: 85
 - repo: ivnvxd/tmux-snazzy
   description: Elegant theme with bright colors
   author: ivnvxd
-  stars: 23
+  stars: 24
 - repo: leighmcculloch/tmux-colours-superhero
   description: Superhero themed color scheme
   author: leighmcculloch
@@ -77,7 +77,7 @@
 - repo: thekylehuang/cole-tmux
   description: Stationery-inspired minimal theme with vintage earth tones
   author: thekylehuang
-  stars: 0
+  stars: 1
 - repo: tarquibrian/vanzi
   description: Clean and minimalist tmux theme
   author: tarquibrian
