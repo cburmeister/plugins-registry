@@ -44,10 +44,20 @@ jobs:
               repo=$(yq eval ".[$i].repo" "$f")
               desc=$(yq eval ".[$i].description" "$f")
               author=$(yq eval ".[$i].author" "$f")
+              host=$(yq eval ".[$i].host // \"\"" "$f")
 
-              stars=$(curl -s -H "Authorization: token $GH_TOKEN" \
-                "https://api.github.com/repos/$repo" | \
-                yq eval '.stargazers_count // 0' -)
+              if [ -z "$host" ] || [ "$host" = "github.com" ]; then
+                stars=$(curl -s -H "Authorization: token $GH_TOKEN" \
+                  "https://api.github.com/repos/$repo" | \
+                  yq eval '.stargazers_count // 0' -)
+              elif [ "$host" = "gitlab.com" ]; then
+                encoded=$(echo "$repo" | sed 's/\//%2F/')
+                stars=$(curl -s \
+                  "https://gitlab.com/api/v4/projects/$encoded" | \
+                  yq eval '.star_count // 0' -)
+              else
+                stars=0
+              fi
 
               yq eval -i ".[$i].stars = $stars" "$f"
 
@@ -56,6 +66,9 @@ jobs:
               echo "    author: $author" >> dist/plugins.yml
               echo "    category: $cat" >> dist/plugins.yml
               echo "    stars: $stars" >> dist/plugins.yml
+              if [ -n "$host" ]; then
+                echo "    host: $host" >> dist/plugins.yml
+              fi
             done
           done
 
@@ -90,12 +103,14 @@ jobs:
                 repo=$(yq eval ".[$i].repo" "$f")
                 desc=$(yq eval ".[$i].description" "$f")
                 stars=$(yq eval ".[$i].stars // 0" "$f")
+                host=$(yq eval ".[$i].host // \"\"" "$f")
                 name="${repo#*/}"
                 owner="${repo%%/*}"
-                printf '%s\t%s\t%s\t%s\t%s\n' "$name" "$owner" "$repo" "$desc" "$stars" >> "$tmpfile"
+                link_host="${host:-github.com}"
+                printf '%s\t%s\t%s\t%s\t%s\t%s\n' "$name" "$owner" "$repo" "$desc" "$stars" "$link_host" >> "$tmpfile"
               done
-              sort -t$'\t' -k1,1 -f "$tmpfile" | while IFS=$'\t' read -r name owner repo desc stars; do
-                echo "| ${owner}/[**${name}**](https://github.com/${repo}) | ${desc} | ${stars} |"
+              sort -t$'\t' -k1,1 -f "$tmpfile" | while IFS=$'\t' read -r name owner repo desc stars link_host; do
+                echo "| ${owner}/[**${name}**](https://${link_host}/${repo}) | ${desc} | ${stars} |"
               done
               rm -f "$tmpfile"
               echo ""

@@ -24,16 +24,24 @@ Thank you for contributing to the tpack plugin registry!
 Add your plugin to the appropriate category file:
 
 ```yaml
+# GitHub (default)
 - repo: your-username/your-plugin
+  description: A short description of what the plugin does
+  author: your-username
+
+# Non-GitHub host (e.g. GitLab)
+- repo: your-username/your-plugin
+  host: gitlab.com
   description: A short description of what the plugin does
   author: your-username
 ```
 
 ### Requirements
 
-- **repo**: Must be in `user/repo` format and point to a valid public GitHub repository
+- **repo**: Must be in `user/repo` format and point to a valid public repository
+- **host** *(optional)*: The git host domain (e.g. `gitlab.com`). Omit for GitHub repos
 - **description**: Between 10 and 200 characters
-- **author**: Your GitHub username
+- **author**: Your username on the host
 - **stars**: Do NOT add this field — it is managed automatically by CI
 
 ### What Happens Next

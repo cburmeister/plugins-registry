@@ -33,6 +33,7 @@ jobs:
               repo=$(yq eval ".[$i].repo" "$f")
               desc=$(yq eval ".[$i].description" "$f")
               author=$(yq eval ".[$i].author" "$f")
+              host=$(yq eval ".[$i].host // \"\"" "$f")
               if [ "$repo" = "null" ] || [ -z "$repo" ]; then
                 echo "Missing repo in $f entry $i"; exit 1
               fi
@@ -44,6 +45,9 @@ jobs:
               fi
               if ! echo "$repo" | grep -qE '^[a-zA-Z0-9._-]+/[a-zA-Z0-9._-]+$'; then
                 echo "Invalid repo format: $repo in $f"; exit 1
+              fi
+              if [ -n "$host" ] && ! echo "$host" | grep -qE '^[a-zA-Z0-9]([a-zA-Z0-9.-]*[a-zA-Z0-9])?(\.[a-zA-Z]{2,})+$'; then
+                echo "Invalid host format: $host in $f entry $i"; exit 1
               fi
               desc_len=${#desc}
               if [ "$desc_len" -lt 10 ] || [ "$desc_len" -gt 200 ]; then
@@ -62,7 +66,7 @@ jobs:
             echo "Duplicate repos found: $dupes"; exit 1
           fi
 
-      - name: Check stars not modified by contributor
+      - name: Check stars and host not modified by contributor
         run: |
           git diff --name-only origin/main...HEAD -- 'plugins/*.yml' | while read f; do
             if [ ! -f "$f" ]; then continue; fi
@@ -70,9 +74,13 @@ jobs:
             if echo "$diff_output" | grep -qE '^\+.*stars:'; then
               echo "Stars field should not be added/modified in $f"; exit 1
             fi
+            # Block host changes on existing entries (new entries with host are fine)
+            if echo "$diff_output" | grep -qE '^\-.*host:'; then
+              echo "Host field should not be modified on existing entries in $f"; exit 1
+            fi
           done
 
-      - name: Verify repos exist on GitHub
+      - name: Verify repos exist
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -81,11 +89,24 @@ jobs:
             if [ "$count" = "0" ]; then continue; fi
             for i in $(seq 0 $(( count - 1 ))); do
               repo=$(yq eval ".[$i].repo" "$f")
-              status=$(curl -s -o /dev/null -w "%{http_code}" \
-                -H "Authorization: token $GH_TOKEN" \
-                "https://api.github.com/repos/$repo")
-              if [ "$status" != "200" ]; then
-                echo "Repo not found: $repo (HTTP $status)"; exit 1
+              host=$(yq eval ".[$i].host // \"\"" "$f")
+
+              if [ -z "$host" ] || [ "$host" = "github.com" ]; then
+                status=$(curl -s -o /dev/null -w "%{http_code}" \
+                  -H "Authorization: token $GH_TOKEN" \
+                  "https://api.github.com/repos/$repo")
+                if [ "$status" != "200" ]; then
+                  echo "Repo not found: $repo (HTTP $status)"; exit 1
+                fi
+              elif [ "$host" = "gitlab.com" ]; then
+                encoded=$(echo "$repo" | sed 's/\//%2F/')
+                status=$(curl -s -o /dev/null -w "%{http_code}" \
+                  "https://gitlab.com/api/v4/projects/$encoded")
+                if [ "$status" != "200" ]; then
+                  echo "Repo not found: $repo on gitlab.com (HTTP $status)"; exit 1
+                fi
+              else
+                echo "Skipping existence check for $repo on $host (unsupported host)"
               fi
             done
           done
