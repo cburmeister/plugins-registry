@@ -1,11 +1,11 @@
 - repo: catppuccin/tmux
   description: Soothing pastel theme for Tmux
   author: catppuccin
-  stars: 2847
+  stars: 2852
 - repo: dracula/tmux
   description: Dark theme for Tmux
   author: dracula
-  stars: 804
+  stars: 806
 - repo: arcticicestudio/nord-tmux
   description: Arctic north-bluish clean color theme
   author: arcticicestudio
@@ -13,11 +13,11 @@
 - repo: rose-pine/tmux
   description: Soho vibes aesthetic theme for Tmux
   author: rose-pine
-  stars: 252
+  stars: 251
 - repo: egel/tmux-gruvbox
   description: Light and dark gruvbox color scheme
   author: egel
-  stars: 662
+  stars: 663
 - repo: o0th/tmux-nova
   description: Fully customizable theme system for Tmux
   author: o0th
@@ -25,11 +25,11 @@
 - repo: wfxr/tmux-power
   description: Eight powerline-style theme variants
   author: wfxr
-  stars: 665
+  stars: 666
 - repo: jimeh/tmux-themepack
   description: Collection of various themes for Tmux
   author: jimeh
-  stars: 1735
+  stars: 1736
 - repo: janoamaral/tokyo-night-tmux
   description: Tokyo Night color scheme for Tmux
   author: janoamaral
@@ -45,15 +45,15 @@
 - repo: 2KAbhishek/tmux2k
   description: Customizable powerline status bar framework
   author: 2KAbhishek
-  stars: 378
+  stars: 380
 - repo: niksingh710/minimal-tmux-status
   description: Minimal and clean status bar theme
   author: niksingh710
-  stars: 254
+  stars: 255
 - repo: erikw/tmux-dark-notify
   description: Auto-switch dark and light mode on macOS
   author: erikw
-  stars: 85
+  stars: 86
 - repo: ivnvxd/tmux-snazzy
   description: Elegant theme with bright colors
   author: ivnvxd
@@ -77,7 +77,7 @@
 - repo: thekylehuang/cole-tmux
   description: Stationery-inspired minimal theme with vintage earth tones
   author: thekylehuang
-  stars: 1
+  stars: 2
 - repo: tarquibrian/vanzi
   description: Clean and minimalist tmux theme
   author: tarquibrian
@@ -85,4 +85,4 @@
 - repo: binoymanoj/tmux-minimal-theme
   description: Clean minimal customizable theme with built-in system monitoring
   author: binoymanoj
-  stars: 36
+  stars: 37

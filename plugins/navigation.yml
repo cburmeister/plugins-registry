@@ -1,15 +1,15 @@
 - repo: tmux-plugins/tmux-pain-control
   description: Standard pane key-bindings for tmux
   author: tmux-plugins
-  stars: 833
+  stars: 834
 - repo: christoomey/vim-tmux-navigator
   description: Seamless navigation between Vim and tmux
   author: christoomey
-  stars: 6093
+  stars: 6100
 - repo: Morantron/tmux-fingers
   description: Vimium-like copy and paste hints
   author: Morantron
-  stars: 1346
+  stars: 1347
 - repo: fcsonline/tmux-thumbs
   description: Fast copy and paste with Rust-powered hints
   author: fcsonline
@@ -21,7 +21,7 @@
 - repo: wfxr/tmux-fzf-url
   description: Quick URL opening with fzf
   author: wfxr
-  stars: 653
+  stars: 654
 - repo: roosta/tmux-fuzzback
   description: Search scrollback buffer with fzf
   author: roosta
@@ -63,7 +63,7 @@
   author: Kristijan
   stars: 36
 - repo: steveslatky/tt
-  description: A fast tmux session switcher 
+  description: A fast tmux session switcher
   author: steveslatky
   host: gitlab.com
   stars: 0

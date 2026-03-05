@@ -21,7 +21,7 @@
 - repo: AngryMorrocoy/tmux-neolazygit
   description: Lazygit integration with tmux and neovim
   author: AngryMorrocoy
-  stars: 41
+  stars: 42
 - repo: KakkoiDev/tmux-worktree
   description: Git worktree management with native tmux menus
   author: KakkoiDev
