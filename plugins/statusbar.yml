@@ -126,3 +126,11 @@
   description: Track and display session duration in the status bar
   author: theo64oliver
   stars: 5
+- repo: jtmcginty/tmux-session-dots
+  description: Visual session indicator for tmux status bar
+  author: jtmcginty
+  stars: 0
+- repo: YousefHadder/muslim-prayers
+  description: Offline-first plugin that shows Islamic prayer status in tmux status bar
+  author: YousefHadder
+  stars: 0

@@ -62,3 +62,8 @@
   description: Flash.nvim-style word jumping and copying
   author: Kristijan
   stars: 36
+- repo: steveslatky/tt
+  description: A fast tmux session switcher 
+  author: steveslatky
+  host: gitlab.com
+  stars: 0
