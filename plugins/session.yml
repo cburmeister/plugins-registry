@@ -58,3 +58,9 @@
   description: Zen workflow session manager for tmux
   author: binoymanoj
   stars: 14
+- repo: tmux-python/tmuxp
+  description: Session manager for tmux built on libtmux
+  author: tmux-python
+- repo: HRmemon/tmux-session-manager
+  description: Session management system with per-project JSON configs
+  author: HRmemon
