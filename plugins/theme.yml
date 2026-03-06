@@ -1,7 +1,7 @@
 - repo: catppuccin/tmux
   description: Soothing pastel theme for Tmux
   author: catppuccin
-  stars: 2852
+  stars: 2857
 - repo: dracula/tmux
   description: Dark theme for Tmux
   author: dracula
@@ -33,7 +33,7 @@
 - repo: janoamaral/tokyo-night-tmux
   description: Tokyo Night color scheme for Tmux
   author: janoamaral
-  stars: 536
+  stars: 538
 - repo: Nybkox/tmux-kanagawa
   description: Dark color scheme inspired by Hokusai artwork
   author: Nybkox
@@ -41,11 +41,11 @@
 - repo: seebi/tmux-colors-solarized
   description: Solarized color implementation for Tmux
   author: seebi
-  stars: 1102
+  stars: 1103
 - repo: 2KAbhishek/tmux2k
   description: Customizable powerline status bar framework
   author: 2KAbhishek
-  stars: 380
+  stars: 381
 - repo: niksingh710/minimal-tmux-status
   description: Minimal and clean status bar theme
   author: niksingh710

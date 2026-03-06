@@ -25,7 +25,7 @@
 - repo: KakkoiDev/tmux-worktree
   description: Git worktree management with native tmux menus
   author: KakkoiDev
-  stars: 22
+  stars: 23
 - repo: NigelGreenway/tmux-git-worktree
   description: Create and switch between git worktrees in tmux
   author: NigelGreenway
@@ -33,3 +33,4 @@
 - repo: jacobhm98/yati
   description: Git worktree manager with tmux and docker-compose integration
   author: jacobhm98
+  stars: 3
