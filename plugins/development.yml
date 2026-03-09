@@ -9,7 +9,7 @@
 - repo: GianlucaP106/gotmux
   description: Golang library for tmux interaction
   author: GianlucaP106
-  stars: 46
+  stars: 47
 - repo: alexekdahl/tmux-compile
   description: Run compile commands with automatic pane
   author: alexekdahl
@@ -33,4 +33,4 @@
 - repo: jacobhm98/yati
   description: Git worktree manager with tmux and docker-compose integration
   author: jacobhm98
-  stars: 3
+  stars: 6

@@ -1,7 +1,7 @@
 - repo: catppuccin/tmux
   description: Soothing pastel theme for Tmux
   author: catppuccin
-  stars: 2857
+  stars: 2861
 - repo: dracula/tmux
   description: Dark theme for Tmux
   author: dracula
@@ -17,7 +17,7 @@
 - repo: egel/tmux-gruvbox
   description: Light and dark gruvbox color scheme
   author: egel
-  stars: 663
+  stars: 664
 - repo: o0th/tmux-nova
   description: Fully customizable theme system for Tmux
   author: o0th

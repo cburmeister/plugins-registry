@@ -1,15 +1,15 @@
 - repo: tmux-plugins/tmux-sensible
   description: A set of tmux options that should be acceptable to everyone
   author: tmux-plugins
-  stars: 2121
+  stars: 2124
 - repo: tmux-plugins/tmux-yank
   description: Tmux plugin for copying to system clipboard
   author: tmux-plugins
-  stars: 3035
+  stars: 3037
 - repo: tmux-plugins/tmux-copycat
   description: Enhanced tmux search with regex support
   author: tmux-plugins
-  stars: 1181
+  stars: 1182
 - repo: tmux-plugins/tmux-open
   description: Open highlighted files and URLs from copy mode
   author: tmux-plugins
@@ -17,11 +17,11 @@
 - repo: tmux-plugins/tmux-logging
   description: Logging and screen capturing utilities
   author: tmux-plugins
-  stars: 1206
+  stars: 1208
 - repo: tmux-plugins/tmux-sidebar
   description: Directory tree sidebar for navigation
   author: tmux-plugins
-  stars: 615
+  stars: 616
 - repo: tmux-plugins/tmux-fpp
   description: Quick opening of file paths in editor
   author: tmux-plugins
@@ -29,11 +29,11 @@
 - repo: laktak/extrakto
   description: Clipboard copy and fzf completions from output
   author: laktak
-  stars: 1077
+  stars: 1078
 - repo: NHDaly/tmux-better-mouse-mode
   description: Better mouse scroll and click configuration
   author: NHDaly
-  stars: 964
+  stars: 966
 - repo: b0o/tmux-autoreload
   description: Automatically reload config file on change
   author: b0o
@@ -41,19 +41,19 @@
 - repo: jaclu/tmux-menus
   description: Popup menus for environment management
   author: jaclu
-  stars: 469
+  stars: 470
 - repo: jabirali/tmux-tilish
   description: Tiling window manager features inspired by i3
   author: jabirali
-  stars: 483
+  stars: 484
 - repo: 2KAbhishek/tmux-tilit
   description: Tiling window manager keybindings
   author: 2KAbhishek
-  stars: 75
+  stars: 76
 - repo: rickstaa/tmux-notify
   description: Notify when long-running processes finish
   author: rickstaa
-  stars: 234
+  stars: 236
 - repo: whame/tmux-modal
   description: Modal mode for executing complex commands
   author: whame
@@ -65,7 +65,7 @@
 - repo: lost-melody/tmux-command-palette
   description: Keybinding search palette with fzf
   author: lost-melody
-  stars: 31
+  stars: 32
 - repo: Alkindi42/tmux-bitwarden
   description: Access Bitwarden login items from tmux
   author: Alkindi42
@@ -77,7 +77,7 @@
 - repo: azorng/tmux-smooth-scroll
   description: Smooth scrolling in copy mode
   author: azorng
-  stars: 55
+  stars: 57
 - repo: graemedavidson/tmux-pane-focus
   description: Auto-resizing focused pane splits
   author: graemedavidson
@@ -89,7 +89,7 @@
 - repo: sainnhe/tmux-fzf
   description: Manage tmux environment with fzf
   author: sainnhe
-  stars: 1348
+  stars: 1351
 - repo: alexwforsythe/tmux-which-key
   description: Customizable popup menu for keybinding discovery
   author: alexwforsythe
@@ -105,7 +105,7 @@
 - repo: kiyoon/treemux
   description: Nvim-Tree file explorer sidebar
   author: kiyoon
-  stars: 193
+  stars: 192
 - repo: gcla/tmux-wormhole
   description: Download files with magic wormhole
   author: gcla
