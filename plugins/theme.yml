@@ -1,11 +1,11 @@
 - repo: catppuccin/tmux
   description: Soothing pastel theme for Tmux
   author: catppuccin
-  stars: 2861
+  stars: 2881
 - repo: dracula/tmux
   description: Dark theme for Tmux
   author: dracula
-  stars: 806
+  stars: 808
 - repo: arcticicestudio/nord-tmux
   description: Arctic north-bluish clean color theme
   author: arcticicestudio
@@ -13,19 +13,19 @@
 - repo: rose-pine/tmux
   description: Soho vibes aesthetic theme for Tmux
   author: rose-pine
-  stars: 251
+  stars: 254
 - repo: egel/tmux-gruvbox
   description: Light and dark gruvbox color scheme
   author: egel
-  stars: 664
+  stars: 666
 - repo: o0th/tmux-nova
   description: Fully customizable theme system for Tmux
   author: o0th
-  stars: 202
+  stars: 204
 - repo: wfxr/tmux-power
   description: Eight powerline-style theme variants
   author: wfxr
-  stars: 666
+  stars: 664
 - repo: jimeh/tmux-themepack
   description: Collection of various themes for Tmux
   author: jimeh
@@ -33,7 +33,7 @@
 - repo: janoamaral/tokyo-night-tmux
   description: Tokyo Night color scheme for Tmux
   author: janoamaral
-  stars: 538
+  stars: 540
 - repo: Nybkox/tmux-kanagawa
   description: Dark color scheme inspired by Hokusai artwork
   author: Nybkox
@@ -41,11 +41,11 @@
 - repo: seebi/tmux-colors-solarized
   description: Solarized color implementation for Tmux
   author: seebi
-  stars: 1103
+  stars: 1104
 - repo: 2KAbhishek/tmux2k
   description: Customizable powerline status bar framework
   author: 2KAbhishek
-  stars: 381
+  stars: 383
 - repo: niksingh710/minimal-tmux-status
   description: Minimal and clean status bar theme
   author: niksingh710
@@ -53,7 +53,7 @@
 - repo: erikw/tmux-dark-notify
   description: Auto-switch dark and light mode on macOS
   author: erikw
-  stars: 86
+  stars: 87
 - repo: ivnvxd/tmux-snazzy
   description: Elegant theme with bright colors
   author: ivnvxd
@@ -69,7 +69,7 @@
 - repo: imomaliev/tmux-peacock
   description: Per-session color based on session name
   author: imomaliev
-  stars: 36
+  stars: 37
 - repo: Valeyard1/tmux-dotbar
   description: Simple and minimalist dot-style status bar theme
   author: Valeyard1
@@ -77,7 +77,7 @@
 - repo: thekylehuang/cole-tmux
   description: Stationery-inspired minimal theme with vintage earth tones
   author: thekylehuang
-  stars: 2
+  stars: 3
 - repo: tarquibrian/vanzi
   description: Clean and minimalist tmux theme
   author: tarquibrian
