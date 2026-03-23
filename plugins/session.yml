@@ -1,11 +1,11 @@
 - repo: tmux-plugins/tmux-resurrect
   description: Persists tmux environment across system restarts
   author: tmux-plugins
-  stars: 12544
+  stars: 12570
 - repo: tmux-plugins/tmux-continuum
   description: Continuous saving of tmux environment
   author: tmux-plugins
-  stars: 3854
+  stars: 3863
 - repo: tmux-plugins/tmux-sessionist
   description: Lightweight session manipulation utilities
   author: tmux-plugins
@@ -13,7 +13,7 @@
 - repo: 27medkamal/tmux-session-wizard
   description: Session creation with fzf and zoxide
   author: 27medkamal
-  stars: 252
+  stars: 253
 - repo: thuanOwa/tmux-fzf-session-switch
   description: Easy session switching with fzf
   author: thuanOwa
@@ -21,11 +21,11 @@
 - repo: joshmedeski/sesh
   description: Smart terminal session manager
   author: joshmedeski
-  stars: 1808
+  stars: 1835
 - repo: omerxx/tmux-sessionx
   description: Session manager with zoxide and fuzzy finding
   author: omerxx
-  stars: 1217
+  stars: 1231
 - repo: MunifTanjim/tmux-suspend
   description: Suspend local session for nested remote sessions
   author: MunifTanjim
@@ -61,7 +61,7 @@
 - repo: tmux-python/tmuxp
   description: Session manager for tmux built on libtmux
   author: tmux-python
-  stars: 4449
+  stars: 4456
 - repo: HRmemon/tmux-session-manager
   description: Session management system with per-project JSON configs
   author: HRmemon
