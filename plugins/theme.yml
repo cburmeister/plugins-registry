@@ -1,11 +1,11 @@
 - repo: catppuccin/tmux
   description: Soothing pastel theme for Tmux
   author: catppuccin
-  stars: 2897
+  stars: 2916
 - repo: dracula/tmux
   description: Dark theme for Tmux
   author: dracula
-  stars: 810
+  stars: 813
 - repo: arcticicestudio/nord-tmux
   description: Arctic north-bluish clean color theme
   author: arcticicestudio
@@ -13,19 +13,19 @@
 - repo: rose-pine/tmux
   description: Soho vibes aesthetic theme for Tmux
   author: rose-pine
-  stars: 256
+  stars: 259
 - repo: egel/tmux-gruvbox
   description: Light and dark gruvbox color scheme
   author: egel
-  stars: 668
+  stars: 670
 - repo: o0th/tmux-nova
   description: Fully customizable theme system for Tmux
   author: o0th
-  stars: 204
+  stars: 206
 - repo: wfxr/tmux-power
   description: Eight powerline-style theme variants
   author: wfxr
-  stars: 664
+  stars: 670
 - repo: jimeh/tmux-themepack
   description: Collection of various themes for Tmux
   author: jimeh
@@ -33,7 +33,7 @@
 - repo: janoamaral/tokyo-night-tmux
   description: Tokyo Night color scheme for Tmux
   author: janoamaral
-  stars: 541
+  stars: 544
 - repo: Nybkox/tmux-kanagawa
   description: Dark color scheme inspired by Hokusai artwork
   author: Nybkox
@@ -41,19 +41,19 @@
 - repo: seebi/tmux-colors-solarized
   description: Solarized color implementation for Tmux
   author: seebi
-  stars: 1104
+  stars: 1105
 - repo: 2KAbhishek/tmux2k
   description: Customizable powerline status bar framework
   author: 2KAbhishek
-  stars: 386
+  stars: 390
 - repo: niksingh710/minimal-tmux-status
   description: Minimal and clean status bar theme
   author: niksingh710
-  stars: 257
+  stars: 259
 - repo: erikw/tmux-dark-notify
   description: Auto-switch dark and light mode on macOS
   author: erikw
-  stars: 89
+  stars: 91
 - repo: ivnvxd/tmux-snazzy
   description: Elegant theme with bright colors
   author: ivnvxd

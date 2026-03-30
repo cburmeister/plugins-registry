@@ -1,11 +1,11 @@
 - repo: tmux-plugins/tmux-battery
   description: Battery percentage and icon indicator
   author: tmux-plugins
-  stars: 559
+  stars: 561
 - repo: tmux-plugins/tmux-cpu
   description: CPU usage percentage display
   author: tmux-plugins
-  stars: 513
+  stars: 514
 - repo: tmux-plugins/tmux-online-status
   description: Display online and offline status
   author: tmux-plugins
@@ -17,11 +17,11 @@
 - repo: thewtex/tmux-mem-cpu-load
   description: CPU, RAM, and system load monitor
   author: thewtex
-  stars: 1100
+  stars: 1101
 - repo: arl/gitmux
   description: Show Git status in the status bar
   author: arl
-  stars: 769
+  stars: 772
 - repo: MunifTanjim/tmux-mode-indicator
   description: Display current active Tmux mode
   author: MunifTanjim
@@ -37,7 +37,7 @@
 - repo: olimorris/tmux-pomodoro-plus
   description: Pomodoro timer integration
   author: olimorris
-  stars: 449
+  stars: 450
 - repo: charlietag/tmux-split-statusbar
   description: Split status bar into two rows
   author: charlietag
@@ -61,7 +61,7 @@
 - repo: erikw/tmux-powerline
   description: Dynamic powerline-style status bar segments
   author: erikw
-  stars: 3735
+  stars: 3743
 - repo: tmux-plugins/tmux-net-speed
   description: Upload and download speed monitor
   author: tmux-plugins
@@ -81,7 +81,7 @@
 - repo: tmux-plugins/tmux-maildir-counter
   description: Count files in a mail directory
   author: tmux-plugins
-  stars: 34
+  stars: 35
 - repo: spywhere/tmux-now-playing
   description: Show currently playing track with controls
   author: spywhere
@@ -97,7 +97,7 @@
 - repo: fabioluciano/tmux-powerkit
   description: Ultimate status bar framework with many widgets
   author: fabioluciano
-  stars: 492
+  stars: 498
 - repo: barlevalon/tmux-nowplaying-macos
   description: Display macOS system-wide Now Playing info
   author: barlevalon
@@ -113,7 +113,7 @@
 - repo: accessd/tmux-agent-indicator
   description: Visual feedback for AI agent states in pane borders and status bar
   author: accessd
-  stars: 29
+  stars: 32
 - repo: odtgit/tmux-mpris
   description: MPRIS now-playing media widget using playerctl
   author: odtgit
