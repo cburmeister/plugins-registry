@@ -2,35 +2,44 @@
   description: Example plugin template for developers
   author: tmux-plugins
   stars: 48
+  added_date: '2026-02-17'
 - repo: tmux-plugins/tmux-test
   description: Isolated testing framework for tmux plugins
   author: tmux-plugins
   stars: 18
+  added_date: '2026-02-17'
 - repo: GianlucaP106/gotmux
   description: Golang library for tmux interaction
   author: GianlucaP106
   stars: 47
+  added_date: '2026-02-17'
 - repo: alexekdahl/tmux-compile
   description: Run compile commands with automatic pane
   author: alexekdahl
   stars: 18
+  added_date: '2026-02-17'
 - repo: idevtier/tmux-cargo
   description: Run Cargo commands from tmux
   author: idevtier
   stars: 0
+  added_date: '2026-02-17'
 - repo: AngryMorrocoy/tmux-neolazygit
   description: Lazygit integration with tmux and neovim
   author: AngryMorrocoy
   stars: 42
+  added_date: '2026-02-17'
 - repo: KakkoiDev/tmux-worktree
   description: Git worktree management with native tmux menus
   author: KakkoiDev
   stars: 24
+  added_date: '2026-02-17'
 - repo: NigelGreenway/tmux-git-worktree
   description: Create and switch between git worktrees in tmux
   author: NigelGreenway
   stars: 9
+  added_date: '2026-02-17'
 - repo: jacobhm98/yati
   description: Git worktree manager with tmux and docker-compose integration
   author: jacobhm98
   stars: 7
+  added_date: '2026-03-06'
