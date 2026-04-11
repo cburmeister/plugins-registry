@@ -66,13 +66,16 @@ jobs:
             echo "Duplicate repos found: $dupes"; exit 1
           fi
 
-      - name: Check stars and host not modified by contributor
+      - name: Check auto-managed fields not modified by contributor
         run: |
           git diff --name-only origin/main...HEAD -- 'plugins/*.yml' | while read f; do
             if [ ! -f "$f" ]; then continue; fi
             diff_output=$(git diff origin/main...HEAD -- "$f")
             if echo "$diff_output" | grep -qE '^\+.*stars:'; then
               echo "Stars field should not be added/modified in $f"; exit 1
+            fi
+            if echo "$diff_output" | grep -qE '^\+.*added_date:'; then
+              echo "added_date field should not be added/modified in $f"; exit 1
             fi
             # Block host changes on existing entries (new entries with host are fine)
             if echo "$diff_output" | grep -qE '^\-.*host:'; then
