@@ -61,6 +61,13 @@ jobs:
 
               yq eval -i ".[$i].stars = $stars" "$f"
 
+              # Set added_date for new entries
+              added_date=$(yq eval ".[$i].added_date // \"\"" "$f")
+              if [ -z "$added_date" ]; then
+                added_date=$(date +%Y-%m-%d)
+                yq eval -i ".[$i].added_date = \"$added_date\"" "$f"
+              fi
+
               echo "  - repo: $repo" >> dist/plugins.yml
               echo "    description: \"$desc\"" >> dist/plugins.yml
               echo "    author: $author" >> dist/plugins.yml
@@ -69,6 +76,7 @@ jobs:
               if [ -n "$host" ]; then
                 echo "    host: $host" >> dist/plugins.yml
               fi
+              echo "    added_date: \"$added_date\"" >> dist/plugins.yml
             done
           done
 
