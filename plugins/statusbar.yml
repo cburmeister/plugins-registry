@@ -110,10 +110,9 @@
   description: Visual session indicator showing all sessions as dots
   author: jtmcginty
   stars: 19
-- repo: accessd/tmux-agent-indicator
-  description: Visual feedback for AI agent states in pane borders and status bar
-  author: accessd
-  stars: 36
+- repo: YousefHadder/tmux-speedtest
+  description: Run internet speed tests and display results in the status bar
+  author: YousefHadder
 - repo: odtgit/tmux-mpris
   description: MPRIS now-playing media widget using playerctl
   author: odtgit

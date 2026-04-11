@@ -18,6 +18,7 @@ Thank you for contributing to the tpack plugin registry!
 | `plugins/session.yml` | Session management and persistence |
 | `plugins/utility.yml` | General-purpose utilities |
 | `plugins/development.yml` | Developer tools and integrations |
+| `plugins/ai.yml` | AI agent integrations and tools |
 
 ### Entry Format
 

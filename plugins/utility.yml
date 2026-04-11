@@ -134,3 +134,12 @@
   description: Insert text into terminal from paste buffers
   author: dianoga-theory
   stars: 3
+- repo: eduardofuncao/altux
+  description: Hold the Alt key as your tmux prefix
+  author: eduardofuncao
+- repo: codedogapp/tmux-send-all
+  description: Send a command to all panes in a tmux window
+  author: codedogapp
+- repo: cookiecad/tmux-grep
+  description: Search across all tmux panes scrollback history with fzf
+  author: cookiecad

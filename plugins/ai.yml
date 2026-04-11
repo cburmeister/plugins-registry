@@ -1,0 +1,16 @@
+- repo: accessd/tmux-agent-indicator
+  description: Visual feedback for AI agent states in pane borders and status bar
+  author: accessd
+  stars: 36
+- repo: samleeney/tmux-agent-status
+  description: Show which tmux sessions have AI agents working or idle
+  author: samleeney
+- repo: qeesung/tmux-scout
+  description: Monitor and navigate Claude Code and Codex sessions
+  author: qeesung
+- repo: smilovanovic/tmux-claude
+  description: Claude Code session status display and picker
+  author: smilovanovic
+- repo: artischocki/agent-usage-tmux
+  description: Show Claude and Codex API usage in the status bar
+  author: artischocki

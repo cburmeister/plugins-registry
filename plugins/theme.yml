@@ -86,3 +86,6 @@
   description: Clean minimal customizable theme with built-in system monitoring
   author: binoymanoj
   stars: 39
+- repo: pavlemmm/tmux-minithemes
+  description: Collection of beautiful minimal themes with multiple color schemes
+  author: pavlemmm

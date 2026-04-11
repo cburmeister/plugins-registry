@@ -62,6 +62,15 @@
   description: Flash.nvim-style word jumping and copying
   author: Kristijan
   stars: 40
+- repo: gufranco/tmux-tiling-revamped
+  description: BSP tiling window management with multiple layouts and fzf picker
+  author: gufranco
+- repo: sandudorogan/tmux-pane-tree
+  description: Interactive pane tree sidebar with Vim-style navigation
+  author: sandudorogan
+- repo: nucc/tmux-which-key
+  description: LazyVim-style which-key popup with nested groups and Nord theme
+  author: nucc
 - repo: steveslatky/tt
   description: A fast tmux session switcher
   author: steveslatky

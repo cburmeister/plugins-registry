@@ -66,3 +66,9 @@
   description: Session management system with per-project JSON configs
   author: HRmemon
   stars: 2
+- repo: clanghans/tmux-frost
+  description: Minimal session save and restore plugin
+  author: clanghans
+- repo: sarve-shreyas/tmux-unique-sessions
+  description: Prevents duplicate sessions by routing to existing ones
+  author: sarve-shreyas
