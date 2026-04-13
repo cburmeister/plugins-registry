@@ -1,12 +1,12 @@
 - repo: tmux-plugins/tmux-sensible
   description: A set of tmux options that should be acceptable to everyone
   author: tmux-plugins
-  stars: 2159
+  stars: 2164
   added_date: '2026-02-17'
 - repo: tmux-plugins/tmux-yank
   description: Tmux plugin for copying to system clipboard
   author: tmux-plugins
-  stars: 3055
+  stars: 3058
   added_date: '2026-02-17'
 - repo: tmux-plugins/tmux-copycat
   description: Enhanced tmux search with regex support
@@ -16,17 +16,17 @@
 - repo: tmux-plugins/tmux-open
   description: Open highlighted files and URLs from copy mode
   author: tmux-plugins
-  stars: 718
+  stars: 720
   added_date: '2026-02-17'
 - repo: tmux-plugins/tmux-logging
   description: Logging and screen capturing utilities
   author: tmux-plugins
-  stars: 1222
+  stars: 1226
   added_date: '2026-02-17'
 - repo: tmux-plugins/tmux-sidebar
   description: Directory tree sidebar for navigation
   author: tmux-plugins
-  stars: 623
+  stars: 625
   added_date: '2026-02-17'
 - repo: tmux-plugins/tmux-fpp
   description: Quick opening of file paths in editor
@@ -36,7 +36,7 @@
 - repo: laktak/extrakto
   description: Clipboard copy and fzf completions from output
   author: laktak
-  stars: 1094
+  stars: 1096
   added_date: '2026-02-17'
 - repo: NHDaly/tmux-better-mouse-mode
   description: Better mouse scroll and click configuration
@@ -51,7 +51,7 @@
 - repo: jaclu/tmux-menus
   description: Popup menus for environment management
   author: jaclu
-  stars: 484
+  stars: 485
   added_date: '2026-02-17'
 - repo: jabirali/tmux-tilish
   description: Tiling window manager features inspired by i3
@@ -66,7 +66,7 @@
 - repo: rickstaa/tmux-notify
   description: Notify when long-running processes finish
   author: rickstaa
-  stars: 242
+  stars: 244
   added_date: '2026-02-17'
 - repo: whame/tmux-modal
   description: Modal mode for executing complex commands
@@ -81,7 +81,7 @@
 - repo: lost-melody/tmux-command-palette
   description: Keybinding search palette with fzf
   author: lost-melody
-  stars: 33
+  stars: 34
   added_date: '2026-02-17'
 - repo: Alkindi42/tmux-bitwarden
   description: Access Bitwarden login items from tmux
@@ -91,12 +91,12 @@
 - repo: yardnsm/tmux-1password
   description: Access 1Password items from tmux
   author: yardnsm
-  stars: 273
+  stars: 274
   added_date: '2026-02-17'
 - repo: azorng/tmux-smooth-scroll
   description: Smooth scrolling in copy mode
   author: azorng
-  stars: 60
+  stars: 63
   added_date: '2026-02-17'
 - repo: graemedavidson/tmux-pane-focus
   description: Auto-resizing focused pane splits
@@ -111,12 +111,12 @@
 - repo: sainnhe/tmux-fzf
   description: Manage tmux environment with fzf
   author: sainnhe
-  stars: 1381
+  stars: 1388
   added_date: '2026-02-17'
 - repo: alexwforsythe/tmux-which-key
   description: Customizable popup menu for keybinding discovery
   author: alexwforsythe
-  stars: 256
+  stars: 260
   added_date: '2026-02-17'
 - repo: lloydbond/tmux-floating-terminal
   description: Popup floating terminal window
@@ -131,7 +131,7 @@
 - repo: kiyoon/treemux
   description: Nvim-Tree file explorer sidebar
   author: kiyoon
-  stars: 194
+  stars: 195
   added_date: '2026-02-17'
 - repo: gcla/tmux-wormhole
   description: Download files with magic wormhole
@@ -146,17 +146,17 @@
 - repo: navahas/tmux-grimoire
   description: Customizable floating shells for quick actions
   author: navahas
-  stars: 106
+  stars: 107
   added_date: '2026-02-17'
 - repo: laktak/tome
   description: Interactive script playbooks for the terminal
   author: laktak
-  stars: 158
+  stars: 159
   added_date: '2026-02-17'
 - repo: loichyan/tmux-toggle-popup
   description: Create toggleable popup windows
   author: loichyan
-  stars: 28
+  stars: 31
   added_date: '2026-02-17'
 - repo: YlanAllouche/tmux-task-monitor
   description: Session-grouped process monitor popup TUI
@@ -172,11 +172,14 @@
   description: Hold the Alt key as your tmux prefix
   author: eduardofuncao
   added_date: '2026-04-11'
+  stars: 5
 - repo: codedogapp/tmux-send-all
   description: Send a command to all panes in a tmux window
   author: codedogapp
   added_date: '2026-04-11'
+  stars: 1
 - repo: cookiecad/tmux-grep
   description: Search across all tmux panes scrollback history with fzf
   author: cookiecad
   added_date: '2026-04-11'
+  stars: 3

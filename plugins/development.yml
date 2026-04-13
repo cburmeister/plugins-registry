@@ -41,5 +41,5 @@
 - repo: jacobhm98/yati
   description: Git worktree manager with tmux and docker-compose integration
   author: jacobhm98
-  stars: 7
+  stars: 8
   added_date: '2026-03-06'
