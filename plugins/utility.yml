@@ -6,17 +6,17 @@
 - repo: tmux-plugins/tmux-yank
   description: Tmux plugin for copying to system clipboard
   author: tmux-plugins
-  stars: 3058
+  stars: 3059
   added_date: '2026-02-17'
 - repo: tmux-plugins/tmux-copycat
   description: Enhanced tmux search with regex support
   author: tmux-plugins
-  stars: 1187
+  stars: 1188
   added_date: '2026-02-17'
 - repo: tmux-plugins/tmux-open
   description: Open highlighted files and URLs from copy mode
   author: tmux-plugins
-  stars: 720
+  stars: 721
   added_date: '2026-02-17'
 - repo: tmux-plugins/tmux-logging
   description: Logging and screen capturing utilities
@@ -51,7 +51,7 @@
 - repo: jaclu/tmux-menus
   description: Popup menus for environment management
   author: jaclu
-  stars: 485
+  stars: 486
   added_date: '2026-02-17'
 - repo: jabirali/tmux-tilish
   description: Tiling window manager features inspired by i3
@@ -61,7 +61,7 @@
 - repo: 2KAbhishek/tmux-tilit
   description: Tiling window manager keybindings
   author: 2KAbhishek
-  stars: 76
+  stars: 77
   added_date: '2026-02-17'
 - repo: rickstaa/tmux-notify
   description: Notify when long-running processes finish
@@ -131,7 +131,7 @@
 - repo: kiyoon/treemux
   description: Nvim-Tree file explorer sidebar
   author: kiyoon
-  stars: 195
+  stars: 196
   added_date: '2026-02-17'
 - repo: gcla/tmux-wormhole
   description: Download files with magic wormhole

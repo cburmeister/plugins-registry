@@ -6,12 +6,12 @@
 - repo: tmux-plugins/tmux-continuum
   description: Continuous saving of tmux environment
   author: tmux-plugins
-  stars: 3893
+  stars: 3894
   added_date: '2026-02-17'
 - repo: tmux-plugins/tmux-sessionist
   description: Lightweight session manipulation utilities
   author: tmux-plugins
-  stars: 460
+  stars: 461
   added_date: '2026-02-17'
 - repo: 27medkamal/tmux-session-wizard
   description: Session creation with fzf and zoxide
@@ -26,7 +26,7 @@
 - repo: joshmedeski/sesh
   description: Smart terminal session manager
   author: joshmedeski
-  stars: 2274
+  stars: 2275
   added_date: '2026-02-17'
 - repo: omerxx/tmux-sessionx
   description: Session manager with zoxide and fuzzy finding
