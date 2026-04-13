@@ -157,11 +157,6 @@
   author: theo64oliver
   stars: 5
   added_date: '2026-02-19'
-- repo: jtmcginty/tmux-session-dots
-  description: Visual session indicator for tmux status bar
-  author: jtmcginty
-  stars: 19
-  added_date: '2026-02-19'
 - repo: YousefHadder/muslim-prayers
   description: Offline-first plugin that shows Islamic prayer status in tmux status
     bar
