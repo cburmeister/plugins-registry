@@ -6,7 +6,7 @@
 - repo: tmux-plugins/tmux-test
   description: Isolated testing framework for tmux plugins
   author: tmux-plugins
-  stars: 18
+  stars: 19
   added_date: '2026-02-17'
 - repo: GianlucaP106/gotmux
   description: Golang library for tmux interaction
