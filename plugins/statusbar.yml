@@ -1,27 +1,27 @@
 - repo: tmux-plugins/tmux-battery
   description: Battery percentage and icon indicator
   author: tmux-plugins
-  stars: 565
+  stars: 566
   added_date: '2026-02-17'
 - repo: tmux-plugins/tmux-cpu
   description: CPU usage percentage display
   author: tmux-plugins
-  stars: 521
+  stars: 523
   added_date: '2026-02-17'
 - repo: tmux-plugins/tmux-online-status
   description: Display online and offline status
   author: tmux-plugins
-  stars: 182
+  stars: 183
   added_date: '2026-02-17'
 - repo: tmux-plugins/tmux-prefix-highlight
   description: Highlights when prefix key is pressed
   author: tmux-plugins
-  stars: 662
+  stars: 663
   added_date: '2026-02-17'
 - repo: thewtex/tmux-mem-cpu-load
   description: CPU, RAM, and system load monitor
   author: thewtex
-  stars: 1102
+  stars: 1105
   added_date: '2026-02-17'
 - repo: arl/gitmux
   description: Show Git status in the status bar
@@ -46,7 +46,7 @@
 - repo: olimorris/tmux-pomodoro-plus
   description: Pomodoro timer integration
   author: olimorris
-  stars: 455
+  stars: 457
   added_date: '2026-02-17'
 - repo: charlietag/tmux-split-statusbar
   description: Split status bar into two rows
@@ -61,7 +61,7 @@
 - repo: joshmedeski/tmux-nerd-font-window-name
   description: Nerd Font icons for window names
   author: joshmedeski
-  stars: 211
+  stars: 212
   added_date: '2026-02-17'
 - repo: alexanderjeurissen/tmux-world-clock
   description: Display multiple timezone clocks
@@ -76,7 +76,7 @@
 - repo: erikw/tmux-powerline
   description: Dynamic powerline-style status bar segments
   author: erikw
-  stars: 3772
+  stars: 3778
   added_date: '2026-02-17'
 - repo: tmux-plugins/tmux-net-speed
   description: Upload and download speed monitor
@@ -101,7 +101,7 @@
 - repo: tmux-plugins/tmux-maildir-counter
   description: Count files in a mail directory
   author: tmux-plugins
-  stars: 36
+  stars: 37
   added_date: '2026-02-17'
 - repo: spywhere/tmux-now-playing
   description: Show currently playing track with controls
@@ -121,7 +121,7 @@
 - repo: fabioluciano/tmux-powerkit
   description: Ultimate status bar framework with many widgets
   author: fabioluciano
-  stars: 542
+  stars: 549
   added_date: '2026-02-17'
 - repo: barlevalon/tmux-nowplaying-macos
   description: Display macOS system-wide Now Playing info
