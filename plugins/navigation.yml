@@ -1,32 +1,32 @@
 - repo: tmux-plugins/tmux-pain-control
   description: Standard pane key-bindings for tmux
   author: tmux-plugins
-  stars: 847
+  stars: 848
   added_date: '2026-02-17'
 - repo: christoomey/vim-tmux-navigator
   description: Seamless navigation between Vim and tmux
   author: christoomey
-  stars: 6185
+  stars: 6195
   added_date: '2026-02-17'
 - repo: Morantron/tmux-fingers
   description: Vimium-like copy and paste hints
   author: Morantron
-  stars: 1402
+  stars: 1408
   added_date: '2026-02-17'
 - repo: fcsonline/tmux-thumbs
   description: Fast copy and paste with Rust-powered hints
   author: fcsonline
-  stars: 1068
+  stars: 1067
   added_date: '2026-02-17'
 - repo: schasse/tmux-jump
   description: Vimium and Easymotion-like navigation
   author: schasse
-  stars: 469
+  stars: 471
   added_date: '2026-02-17'
 - repo: wfxr/tmux-fzf-url
   description: Quick URL opening with fzf
   author: wfxr
-  stars: 700
+  stars: 704
   added_date: '2026-02-17'
 - repo: roosta/tmux-fuzzback
   description: Search scrollback buffer with fzf
@@ -36,7 +36,7 @@
 - repo: IngoMeyer441/tmux-easy-motion
   description: Vim-easymotion-like pane navigation
   author: IngoMeyer441
-  stars: 101
+  stars: 102
   added_date: '2026-02-17'
 - repo: jaclu/tmux-power-zoom
   description: Zoom pane to a separate window
@@ -46,7 +46,7 @@
 - repo: greymd/tmux-xpanes
   description: Terminal divider and pane utility
   author: greymd
-  stars: 2091
+  stars: 2090
   added_date: '2026-02-17'
 - repo: jaclu/tmux-mouse-swipe
   description: Switch window or session with right-click swipe
@@ -61,7 +61,7 @@
 - repo: alberti42/tmux-fzf-links
   description: Open any type of link with fzf
   author: alberti42
-  stars: 54
+  stars: 57
   added_date: '2026-02-17'
 - repo: kristopolous/tmux-gentrify
   description: Cut and paste panes between windows
@@ -71,12 +71,12 @@
 - repo: artemave/tmux_super_fingers
   description: Open file links from terminal in Vim
   author: artemave
-  stars: 104
+  stars: 105
   added_date: '2026-02-17'
 - repo: Kristijan/flash-copy.tmux
   description: Flash.nvim-style word jumping and copying
   author: Kristijan
-  stars: 41
+  stars: 43
   added_date: '2026-02-17'
 - repo: gufranco/tmux-tiling-revamped
   description: BSP tiling window management with multiple layouts and fzf picker
