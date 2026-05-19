@@ -88,9 +88,9 @@
   author: imomaliev
   stars: 38
   added_date: '2026-02-17'
-- repo: Valeyard1/tmux-dotbar
+- repo: vaaleyard/tmux-dotbar
   description: Simple and minimalist dot-style status bar theme
-  author: Valeyard1
+  author: vaaleyard
   stars: 0
   added_date: '2026-02-17'
 - repo: thekylehuang/cole-tmux
