@@ -7,7 +7,7 @@
   description: Show which tmux sessions have AI agents working or idle
   author: samleeney
   added_date: '2026-04-11'
-  stars: 169
+  stars: 170
 - repo: qeesung/tmux-scout
   description: Monitor and navigate Claude Code and Codex sessions
   author: qeesung
@@ -26,33 +26,55 @@
 - repo: Ataraxy-Labs/opensessions
   description: tmux sidebar for coding agents Amp, Claude Code, Codex, and OpenCode with per-thread markers
   author: Ataraxy-Labs
+  stars: 1049
+  added_date: "2026-05-19"
 - repo: gavraz/recon
   description: tmux-native dashboard for managing Claude Code agents
   author: gavraz
+  stars: 237
+  added_date: "2026-05-19"
 - repo: craigsc/cmux
   description: tmux orchestrator for Claude Code with multi-agent management
   author: craigsc
+  stars: 536
+  added_date: "2026-05-19"
 - repo: Dicklesworthstone/ntm
   description: Named tmux manager that spawns and coordinates multiple AI agents across panes
   author: Dicklesworthstone
+  stars: 315
+  added_date: "2026-05-19"
 - repo: smtg-ai/claude-squad
   description: Manage multiple AI terminal agents like Claude Code, Codex, OpenCode, and Amp in tmux
   author: smtg-ai
+  stars: 7517
+  added_date: "2026-05-19"
 - repo: standardagents/dmux
   description: Dev agent multiplexer for git worktrees and coding agents in tmux
   author: standardagents
+  stars: 1567
+  added_date: "2026-05-19"
 - repo: fynnfluegge/agtx
   description: Blackboard TUI for monitoring coding agents across tmux sessions
   author: fynnfluegge
+  stars: 1045
+  added_date: "2026-05-19"
 - repo: asheshgoplani/agent-deck
   description: Terminal session manager TUI for AI coding agents Claude, Gemini, Codex, and OpenCode
   author: asheshgoplani
+  stars: 2441
+  added_date: "2026-05-19"
 - repo: nickgnd/tmux-mcp
   description: MCP server enabling AI assistants to interact with and view tmux session content
   author: nickgnd
+  stars: 278
+  added_date: "2026-05-19"
 - repo: rupert648/pertmux
   description: Rust TUI linking coding agents, MRs, worktrees, and tmux panes in one dashboard
   author: rupert648
+  stars: 40
+  added_date: "2026-05-19"
 - repo: radoslav11/rpai
   description: Tool to make it easier to jump between AI agents running in tmux panes
   author: radoslav11
+  stars: 14
+  added_date: "2026-05-19"

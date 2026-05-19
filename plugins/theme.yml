@@ -6,7 +6,7 @@
 - repo: dracula/tmux
   description: Dark theme for Tmux
   author: dracula
-  stars: 834
+  stars: 835
   added_date: '2026-02-17'
 - repo: arcticicestudio/nord-tmux
   description: Arctic north-bluish clean color theme
@@ -16,7 +16,7 @@
 - repo: rose-pine/tmux
   description: Soho vibes aesthetic theme for Tmux
   author: rose-pine
-  stars: 264
+  stars: 265
   added_date: '2026-02-17'
 - repo: egel/tmux-gruvbox
   description: Light and dark gruvbox color scheme
@@ -31,7 +31,7 @@
 - repo: wfxr/tmux-power
   description: Eight powerline-style theme variants
   author: wfxr
-  stars: 682
+  stars: 681
   added_date: '2026-02-17'
 - repo: jimeh/tmux-themepack
   description: Collection of various themes for Tmux
@@ -91,7 +91,7 @@
 - repo: vaaleyard/tmux-dotbar
   description: Simple and minimalist dot-style status bar theme
   author: vaaleyard
-  stars: 0
+  stars: 248
   added_date: '2026-02-17'
 - repo: thekylehuang/cole-tmux
   description: Stationery-inspired minimal theme with vintage earth tones

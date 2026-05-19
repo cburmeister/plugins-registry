@@ -6,7 +6,7 @@
 - repo: tmux-plugins/tmux-yank
   description: Tmux plugin for copying to system clipboard
   author: tmux-plugins
-  stars: 3076
+  stars: 3078
   added_date: '2026-02-17'
 - repo: tmux-plugins/tmux-copycat
   description: Enhanced tmux search with regex support
@@ -66,7 +66,7 @@
 - repo: rickstaa/tmux-notify
   description: Notify when long-running processes finish
   author: rickstaa
-  stars: 257
+  stars: 258
   added_date: '2026-02-17'
 - repo: whame/tmux-modal
   description: Modal mode for executing complex commands
@@ -146,7 +146,7 @@
 - repo: navahas/tmux-grimoire
   description: Customizable floating shells for quick actions
   author: navahas
-  stars: 110
+  stars: 111
   added_date: '2026-02-17'
 - repo: laktak/tome
   description: Interactive script playbooks for the terminal
@@ -186,21 +186,35 @@
 - repo: szymonwilczek/tmux-jot
   description: Popup note manager with per-session sticky notes that persist between toggles
   author: szymonwilczek
+  stars: 8
+  added_date: "2026-05-19"
 - repo: BatsShadow/tmux-superclick
   description: Improved mouse-driven text selection for tmux
   author: BatsShadow
+  stars: 7
+  added_date: "2026-05-19"
 - repo: eduwass/tmux-palette
   description: Raycast-style fast and scriptable command palette for tmux
   author: eduwass
+  stars: 291
+  added_date: "2026-05-19"
 - repo: Yahddyyp/tmux-simple-renamers
   description: Simple window and session renamer integrated with sesh and fzf
   author: Yahddyyp
+  stars: 8
+  added_date: "2026-05-19"
 - repo: datamadsen/nunchux
   description: Smart tmux app launcher with fzf, justfile, and npm integration
   author: datamadsen
+  stars: 67
+  added_date: "2026-05-19"
 - repo: waelmahrous/wormhole
   description: Send files between tmux panes by marking destinations as wormholes
   author: waelmahrous
+  stars: 32
+  added_date: "2026-05-19"
 - repo: raine/tmux-snaglord
   description: Turn tmux scrollback into a structured, searchable list of commands and outputs
   author: raine
+  stars: 30
+  added_date: "2026-05-19"

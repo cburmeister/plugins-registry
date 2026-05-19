@@ -1,12 +1,12 @@
 - repo: tmux-plugins/tmux-resurrect
   description: Persists tmux environment across system restarts
   author: tmux-plugins
-  stars: 12756
+  stars: 12761
   added_date: '2026-02-17'
 - repo: tmux-plugins/tmux-continuum
   description: Continuous saving of tmux environment
   author: tmux-plugins
-  stars: 3929
+  stars: 3931
   added_date: '2026-02-17'
 - repo: tmux-plugins/tmux-sessionist
   description: Lightweight session manipulation utilities
@@ -26,7 +26,7 @@
 - repo: joshmedeski/sesh
   description: Smart terminal session manager
   author: joshmedeski
-  stars: 2495
+  stars: 2497
   added_date: '2026-02-17'
 - repo: omerxx/tmux-sessionx
   description: Session manager with zoxide and fuzzy finding
@@ -96,12 +96,20 @@
 - repo: GabrielTecuceanu/tsman
   description: Rust tmux session manager with layout templates and TUI preview
   author: GabrielTecuceanu
+  stars: 62
+  added_date: "2026-05-19"
 - repo: phanorcoll/muxie
   description: TUI session manager that defines tmux sessions, windows, and panes from YAML
   author: phanorcoll
+  stars: 105
+  added_date: "2026-05-19"
 - repo: zSuperx/muffin
   description: Rust-based tmux session manager with configurable layouts
   author: zSuperx
+  stars: 22
+  added_date: "2026-05-19"
 - repo: twopow/tmux-schema
   description: Bootstrap tmux sessions, windows, and panes from a YAML file
   author: twopow
+  stars: 7
+  added_date: "2026-05-19"
