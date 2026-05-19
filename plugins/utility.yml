@@ -213,8 +213,3 @@
   author: waelmahrous
   stars: 32
   added_date: "2026-05-19"
-- repo: raine/tmux-snaglord
-  description: Turn tmux scrollback into a structured, searchable list of commands and outputs
-  author: raine
-  stars: 30
-  added_date: "2026-05-19"

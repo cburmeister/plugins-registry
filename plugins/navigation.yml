@@ -93,9 +93,3 @@
   author: nucc
   added_date: '2026-04-11'
   stars: 33
-- repo: steveslatky/tt
-  description: A fast tmux session switcher
-  author: steveslatky
-  host: gitlab.com
-  stars: 0
-  added_date: '2026-03-04'

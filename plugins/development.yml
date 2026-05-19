@@ -38,18 +38,3 @@
   author: NigelGreenway
   stars: 9
   added_date: '2026-02-17'
-- repo: jacobhm98/yati
-  description: Git worktree manager with tmux and docker-compose integration
-  author: jacobhm98
-  stars: 9
-  added_date: '2026-03-06'
-- repo: andersonkrs/twig
-  description: Glamorous tmux session manager with git worktree support
-  author: andersonkrs
-  stars: 35
-  added_date: "2026-05-19"
-- repo: raine/workmux
-  description: Git worktrees and tmux windows for zero-friction parallel development
-  author: raine
-  stars: 1491
-  added_date: "2026-05-19"

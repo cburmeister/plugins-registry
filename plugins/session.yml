@@ -73,16 +73,6 @@
   author: binoymanoj
   stars: 14
   added_date: '2026-02-19'
-- repo: tmux-python/tmuxp
-  description: Session manager for tmux built on libtmux
-  author: tmux-python
-  stars: 4498
-  added_date: '2026-03-06'
-- repo: HRmemon/tmux-session-manager
-  description: Session management system with per-project JSON configs
-  author: HRmemon
-  stars: 3
-  added_date: '2026-03-06'
 - repo: clanghans/tmux-frost
   description: Minimal session save and restore plugin
   author: clanghans
@@ -93,23 +83,3 @@
   author: sarve-shreyas
   added_date: '2026-04-11'
   stars: 2
-- repo: GabrielTecuceanu/tsman
-  description: Rust tmux session manager with layout templates and TUI preview
-  author: GabrielTecuceanu
-  stars: 62
-  added_date: "2026-05-19"
-- repo: phanorcoll/muxie
-  description: TUI session manager that defines tmux sessions, windows, and panes from YAML
-  author: phanorcoll
-  stars: 105
-  added_date: "2026-05-19"
-- repo: zSuperx/muffin
-  description: Rust-based tmux session manager with configurable layouts
-  author: zSuperx
-  stars: 22
-  added_date: "2026-05-19"
-- repo: twopow/tmux-schema
-  description: Bootstrap tmux sessions, windows, and panes from a YAML file
-  author: twopow
-  stars: 7
-  added_date: "2026-05-19"
