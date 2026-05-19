@@ -196,7 +196,7 @@
 - repo: eduwass/tmux-palette
   description: Raycast-style fast and scriptable command palette for tmux
   author: eduwass
-  stars: 291
+  stars: 292
   added_date: "2026-05-19"
 - repo: Yahddyyp/tmux-simple-renamers
   description: Simple window and session renamer integrated with sesh and fzf

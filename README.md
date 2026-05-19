@@ -10,21 +10,11 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 | Plugin | Description | Stars |
 |--------|-------------|-------|
-| asheshgoplani/[**agent-deck**](https://github.com/asheshgoplani/agent-deck) | Terminal session manager TUI for AI coding agents Claude, Gemini, Codex, and OpenCode | 2441 |
 | artischocki/[**agent-usage-tmux**](https://github.com/artischocki/agent-usage-tmux) | Show Claude and Codex API usage in the status bar | 11 |
-| fynnfluegge/[**agtx**](https://github.com/fynnfluegge/agtx) | Blackboard TUI for monitoring coding agents across tmux sessions | 1045 |
-| smtg-ai/[**claude-squad**](https://github.com/smtg-ai/claude-squad) | Manage multiple AI terminal agents like Claude Code, Codex, OpenCode, and Amp in tmux | 7517 |
-| craigsc/[**cmux**](https://github.com/craigsc/cmux) | tmux orchestrator for Claude Code with multi-agent management | 536 |
-| standardagents/[**dmux**](https://github.com/standardagents/dmux) | Dev agent multiplexer for git worktrees and coding agents in tmux | 1567 |
-| Dicklesworthstone/[**ntm**](https://github.com/Dicklesworthstone/ntm) | Named tmux manager that spawns and coordinates multiple AI agents across panes | 315 |
 | Ataraxy-Labs/[**opensessions**](https://github.com/Ataraxy-Labs/opensessions) | tmux sidebar for coding agents Amp, Claude Code, Codex, and OpenCode with per-thread markers | 1049 |
-| rupert648/[**pertmux**](https://github.com/rupert648/pertmux) | Rust TUI linking coding agents, MRs, worktrees, and tmux panes in one dashboard | 40 |
-| gavraz/[**recon**](https://github.com/gavraz/recon) | tmux-native dashboard for managing Claude Code agents | 237 |
-| radoslav11/[**rpai**](https://github.com/radoslav11/rpai) | Tool to make it easier to jump between AI agents running in tmux panes | 14 |
 | accessd/[**tmux-agent-indicator**](https://github.com/accessd/tmux-agent-indicator) | Visual feedback for AI agent states in pane borders and status bar | 51 |
 | samleeney/[**tmux-agent-status**](https://github.com/samleeney/tmux-agent-status) | Show which tmux sessions have AI agents working or idle | 170 |
 | smilovanovic/[**tmux-claude**](https://github.com/smilovanovic/tmux-claude) | Claude Code session status display and picker | 12 |
-| nickgnd/[**tmux-mcp**](https://github.com/nickgnd/tmux-mcp) | MCP server enabling AI assistants to interact with and view tmux session content | 278 |
 | qeesung/[**tmux-scout**](https://github.com/qeesung/tmux-scout) | Monitor and navigate Claude Code and Codex sessions | 17 |
 
 ## Development
@@ -39,9 +29,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 | AngryMorrocoy/[**tmux-neolazygit**](https://github.com/AngryMorrocoy/tmux-neolazygit) | Lazygit integration with tmux and neovim | 44 |
 | tmux-plugins/[**tmux-test**](https://github.com/tmux-plugins/tmux-test) | Isolated testing framework for tmux plugins | 19 |
 | KakkoiDev/[**tmux-worktree**](https://github.com/KakkoiDev/tmux-worktree) | Git worktree management with native tmux menus | 25 |
-| andersonkrs/[**twig**](https://github.com/andersonkrs/twig) | Glamorous tmux session manager with git worktree support | 35 |
-| raine/[**workmux**](https://github.com/raine/workmux) | Git worktrees and tmux windows for zero-friction parallel development | 1491 |
-| jacobhm98/[**yati**](https://github.com/jacobhm98/yati) | Git worktree manager with tmux and docker-compose integration | 9 |
 
 ## Navigation
 
@@ -65,15 +52,12 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 | nucc/[**tmux-which-key**](https://github.com/nucc/tmux-which-key) | LazyVim-style which-key popup with nested groups and Nord theme | 33 |
 | greymd/[**tmux-xpanes**](https://github.com/greymd/tmux-xpanes) | Terminal divider and pane utility | 2091 |
 | artemave/[**tmux_super_fingers**](https://github.com/artemave/tmux_super_fingers) | Open file links from terminal in Vim | 105 |
-| steveslatky/[**tt**](https://gitlab.com/steveslatky/tt) | A fast tmux session switcher | 0 |
 | christoomey/[**vim-tmux-navigator**](https://github.com/christoomey/vim-tmux-navigator) | Seamless navigation between Vim and tmux | 6195 |
 
 ## Session
 
 | Plugin | Description | Stars |
 |--------|-------------|-------|
-| zSuperx/[**muffin**](https://github.com/zSuperx/muffin) | Rust-based tmux session manager with configurable layouts | 22 |
-| phanorcoll/[**muxie**](https://github.com/phanorcoll/muxie) | TUI session manager that defines tmux sessions, windows, and panes from YAML | 105 |
 | joshmedeski/[**sesh**](https://github.com/joshmedeski/sesh) | Smart terminal session manager | 2497 |
 | juancruzfl/[**tmux-canvas**](https://github.com/juancruzfl/tmux-canvas) | Layout management with state persistence | 0 |
 | tmux-plugins/[**tmux-continuum**](https://github.com/tmux-plugins/tmux-continuum) | Continuous saving of tmux environment | 3931 |
@@ -83,8 +67,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 | spywhere/[**tmux-named-snapshot**](https://github.com/spywhere/tmux-named-snapshot) | Named snapshot support for tmux-resurrect | 45 |
 | niqodea/[**tmux-nested**](https://github.com/niqodea/tmux-nested) | Support for arbitrary levels of nested sessions | 0 |
 | tmux-plugins/[**tmux-resurrect**](https://github.com/tmux-plugins/tmux-resurrect) | Persists tmux environment across system restarts | 12761 |
-| twopow/[**tmux-schema**](https://github.com/twopow/tmux-schema) | Bootstrap tmux sessions, windows, and panes from a YAML file | 7 |
-| HRmemon/[**tmux-session-manager**](https://github.com/HRmemon/tmux-session-manager) | Session management system with per-project JSON configs | 3 |
 | 27medkamal/[**tmux-session-wizard**](https://github.com/27medkamal/tmux-session-wizard) | Session creation with fzf and zoxide | 257 |
 | tmux-plugins/[**tmux-sessionist**](https://github.com/tmux-plugins/tmux-sessionist) | Lightweight session manipulation utilities | 461 |
 | omerxx/[**tmux-sessionx**](https://github.com/omerxx/tmux-sessionx) | Session manager with zoxide and fuzzy finding | 1304 |
@@ -93,8 +75,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 | sarve-shreyas/[**tmux-unique-sessions**](https://github.com/sarve-shreyas/tmux-unique-sessions) | Prevents duplicate sessions by routing to existing ones | 2 |
 | lljbash/[**tmux-update-display**](https://github.com/lljbash/tmux-update-display) | Update DISPLAY variable when reattaching sessions | 20 |
 | binoymanoj/[**tmux-zenflow**](https://github.com/binoymanoj/tmux-zenflow) | Zen workflow session manager for tmux | 14 |
-| tmux-python/[**tmuxp**](https://github.com/tmux-python/tmuxp) | Session manager for tmux built on libtmux | 4498 |
-| GabrielTecuceanu/[**tsman**](https://github.com/GabrielTecuceanu/tsman) | Rust tmux session manager with layout templates and TUI preview | 62 |
 
 ## Statusbar
 
@@ -122,7 +102,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 | samoshkin/[**tmux-plugin-sysstat**](https://github.com/samoshkin/tmux-plugin-sysstat) | CPU, memory, swap, load average, and net I/O metrics | 172 |
 | olimorris/[**tmux-pomodoro-plus**](https://github.com/olimorris/tmux-pomodoro-plus) | Pomodoro timer integration | 460 |
 | fabioluciano/[**tmux-powerkit**](https://github.com/fabioluciano/tmux-powerkit) | Ultimate status bar framework with many widgets | 560 |
-| erikw/[**tmux-powerline**](https://github.com/erikw/tmux-powerline) | Dynamic powerline-style status bar segments | 3782 |
+| erikw/[**tmux-powerline**](https://github.com/erikw/tmux-powerline) | Dynamic powerline-style status bar segments | 3783 |
 | tmux-plugins/[**tmux-prefix-highlight**](https://github.com/tmux-plugins/tmux-prefix-highlight) | Highlights when prefix key is pressed | 663 |
 | jtmcginty/[**tmux-session-dots**](https://github.com/jtmcginty/tmux-session-dots) | Visual session indicator showing all sessions as dots | 23 |
 | Amdhj22/[**tmux-shorten-path**](https://github.com/Amdhj22/tmux-shorten-path) | Powerlevel10k-style truncated folder path format string for status bars | 1 |
@@ -192,7 +172,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 | whame/[**tmux-modal**](https://github.com/whame/tmux-modal) | Modal mode for executing complex commands | 215 |
 | rickstaa/[**tmux-notify**](https://github.com/rickstaa/tmux-notify) | Notify when long-running processes finish | 258 |
 | tmux-plugins/[**tmux-open**](https://github.com/tmux-plugins/tmux-open) | Open highlighted files and URLs from copy mode | 728 |
-| eduwass/[**tmux-palette**](https://github.com/eduwass/tmux-palette) | Raycast-style fast and scriptable command palette for tmux | 291 |
+| eduwass/[**tmux-palette**](https://github.com/eduwass/tmux-palette) | Raycast-style fast and scriptable command palette for tmux | 292 |
 | graemedavidson/[**tmux-pane-focus**](https://github.com/graemedavidson/tmux-pane-focus) | Auto-resizing focused pane splits | 24 |
 | dianoga-theory/[**tmux-poltergeist**](https://github.com/dianoga-theory/tmux-poltergeist) | Insert text into terminal from paste buffers | 3 |
 | codedogapp/[**tmux-send-all**](https://github.com/codedogapp/tmux-send-all) | Send a command to all panes in a tmux window | 1 |
@@ -200,7 +180,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 | tmux-plugins/[**tmux-sidebar**](https://github.com/tmux-plugins/tmux-sidebar) | Directory tree sidebar for navigation | 636 |
 | Yahddyyp/[**tmux-simple-renamers**](https://github.com/Yahddyyp/tmux-simple-renamers) | Simple window and session renamer integrated with sesh and fzf | 8 |
 | azorng/[**tmux-smooth-scroll**](https://github.com/azorng/tmux-smooth-scroll) | Smooth scrolling in copy mode | 68 |
-| raine/[**tmux-snaglord**](https://github.com/raine/tmux-snaglord) | Turn tmux scrollback into a structured, searchable list of commands and outputs | 30 |
 | BatsShadow/[**tmux-superclick**](https://github.com/BatsShadow/tmux-superclick) | Improved mouse-driven text selection for tmux | 7 |
 | YlanAllouche/[**tmux-task-monitor**](https://github.com/YlanAllouche/tmux-task-monitor) | Session-grouped process monitor popup TUI | 34 |
 | jabirali/[**tmux-tilish**](https://github.com/jabirali/tmux-tilish) | Tiling window manager features inspired by i3 | 489 |

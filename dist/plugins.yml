@@ -44,66 +44,6 @@ plugins:
     category: ai
     stars: 1049
     added_date: "2026-05-19"
-  - repo: gavraz/recon
-    description: "tmux-native dashboard for managing Claude Code agents"
-    author: gavraz
-    category: ai
-    stars: 237
-    added_date: "2026-05-19"
-  - repo: craigsc/cmux
-    description: "tmux orchestrator for Claude Code with multi-agent management"
-    author: craigsc
-    category: ai
-    stars: 536
-    added_date: "2026-05-19"
-  - repo: Dicklesworthstone/ntm
-    description: "Named tmux manager that spawns and coordinates multiple AI agents across panes"
-    author: Dicklesworthstone
-    category: ai
-    stars: 315
-    added_date: "2026-05-19"
-  - repo: smtg-ai/claude-squad
-    description: "Manage multiple AI terminal agents like Claude Code, Codex, OpenCode, and Amp in tmux"
-    author: smtg-ai
-    category: ai
-    stars: 7517
-    added_date: "2026-05-19"
-  - repo: standardagents/dmux
-    description: "Dev agent multiplexer for git worktrees and coding agents in tmux"
-    author: standardagents
-    category: ai
-    stars: 1567
-    added_date: "2026-05-19"
-  - repo: fynnfluegge/agtx
-    description: "Blackboard TUI for monitoring coding agents across tmux sessions"
-    author: fynnfluegge
-    category: ai
-    stars: 1045
-    added_date: "2026-05-19"
-  - repo: asheshgoplani/agent-deck
-    description: "Terminal session manager TUI for AI coding agents Claude, Gemini, Codex, and OpenCode"
-    author: asheshgoplani
-    category: ai
-    stars: 2441
-    added_date: "2026-05-19"
-  - repo: nickgnd/tmux-mcp
-    description: "MCP server enabling AI assistants to interact with and view tmux session content"
-    author: nickgnd
-    category: ai
-    stars: 278
-    added_date: "2026-05-19"
-  - repo: rupert648/pertmux
-    description: "Rust TUI linking coding agents, MRs, worktrees, and tmux panes in one dashboard"
-    author: rupert648
-    category: ai
-    stars: 40
-    added_date: "2026-05-19"
-  - repo: radoslav11/rpai
-    description: "Tool to make it easier to jump between AI agents running in tmux panes"
-    author: radoslav11
-    category: ai
-    stars: 14
-    added_date: "2026-05-19"
   - repo: tmux-plugins/tmux-example-plugin
     description: "Example plugin template for developers"
     author: tmux-plugins
@@ -152,24 +92,6 @@ plugins:
     category: development
     stars: 9
     added_date: "2026-02-17"
-  - repo: jacobhm98/yati
-    description: "Git worktree manager with tmux and docker-compose integration"
-    author: jacobhm98
-    category: development
-    stars: 9
-    added_date: "2026-03-06"
-  - repo: andersonkrs/twig
-    description: "Glamorous tmux session manager with git worktree support"
-    author: andersonkrs
-    category: development
-    stars: 35
-    added_date: "2026-05-19"
-  - repo: raine/workmux
-    description: "Git worktrees and tmux windows for zero-friction parallel development"
-    author: raine
-    category: development
-    stars: 1491
-    added_date: "2026-05-19"
   - repo: tmux-plugins/tmux-pain-control
     description: "Standard pane key-bindings for tmux"
     author: tmux-plugins
@@ -284,13 +206,6 @@ plugins:
     category: navigation
     stars: 33
     added_date: "2026-04-11"
-  - repo: steveslatky/tt
-    description: "A fast tmux session switcher"
-    author: steveslatky
-    category: navigation
-    stars: 0
-    host: gitlab.com
-    added_date: "2026-03-04"
   - repo: tmux-plugins/tmux-resurrect
     description: "Persists tmux environment across system restarts"
     author: tmux-plugins
@@ -381,18 +296,6 @@ plugins:
     category: session
     stars: 14
     added_date: "2026-02-19"
-  - repo: tmux-python/tmuxp
-    description: "Session manager for tmux built on libtmux"
-    author: tmux-python
-    category: session
-    stars: 4498
-    added_date: "2026-03-06"
-  - repo: HRmemon/tmux-session-manager
-    description: "Session management system with per-project JSON configs"
-    author: HRmemon
-    category: session
-    stars: 3
-    added_date: "2026-03-06"
   - repo: clanghans/tmux-frost
     description: "Minimal session save and restore plugin"
     author: clanghans
@@ -405,30 +308,6 @@ plugins:
     category: session
     stars: 2
     added_date: "2026-04-11"
-  - repo: GabrielTecuceanu/tsman
-    description: "Rust tmux session manager with layout templates and TUI preview"
-    author: GabrielTecuceanu
-    category: session
-    stars: 62
-    added_date: "2026-05-19"
-  - repo: phanorcoll/muxie
-    description: "TUI session manager that defines tmux sessions, windows, and panes from YAML"
-    author: phanorcoll
-    category: session
-    stars: 105
-    added_date: "2026-05-19"
-  - repo: zSuperx/muffin
-    description: "Rust-based tmux session manager with configurable layouts"
-    author: zSuperx
-    category: session
-    stars: 22
-    added_date: "2026-05-19"
-  - repo: twopow/tmux-schema
-    description: "Bootstrap tmux sessions, windows, and panes from a YAML file"
-    author: twopow
-    category: session
-    stars: 7
-    added_date: "2026-05-19"
   - repo: tmux-plugins/tmux-battery
     description: "Battery percentage and icon indicator"
     author: tmux-plugins
@@ -523,7 +402,7 @@ plugins:
     description: "Dynamic powerline-style status bar segments"
     author: erikw
     category: statusbar
-    stars: 3782
+    stars: 3783
     added_date: "2026-02-17"
   - repo: tmux-plugins/tmux-net-speed
     description: "Upload and download speed monitor"
@@ -1015,7 +894,7 @@ plugins:
     description: "Raycast-style fast and scriptable command palette for tmux"
     author: eduwass
     category: utility
-    stars: 291
+    stars: 292
     added_date: "2026-05-19"
   - repo: Yahddyyp/tmux-simple-renamers
     description: "Simple window and session renamer integrated with sesh and fzf"
@@ -1034,10 +913,4 @@ plugins:
     author: waelmahrous
     category: utility
     stars: 32
-    added_date: "2026-05-19"
-  - repo: raine/tmux-snaglord
-    description: "Turn tmux scrollback into a structured, searchable list of commands and outputs"
-    author: raine
-    category: utility
-    stars: 30
     added_date: "2026-05-19"
