@@ -1,18 +1,18 @@
 - repo: accessd/tmux-agent-indicator
   description: Visual feedback for AI agent states in pane borders and status bar
   author: accessd
-  stars: 51
+  stars: 57
   added_date: '2026-04-11'
 - repo: samleeney/tmux-agent-status
   description: Show which tmux sessions have AI agents working or idle
   author: samleeney
   added_date: '2026-04-11'
-  stars: 170
+  stars: 176
 - repo: qeesung/tmux-scout
   description: Monitor and navigate Claude Code and Codex sessions
   author: qeesung
   added_date: '2026-04-11'
-  stars: 17
+  stars: 19
 - repo: smilovanovic/tmux-claude
   description: Claude Code session status display and picker
   author: smilovanovic
@@ -26,5 +26,5 @@
 - repo: Ataraxy-Labs/opensessions
   description: tmux sidebar for coding agents Amp, Claude Code, Codex, and OpenCode with per-thread markers
   author: Ataraxy-Labs
-  stars: 1049
+  stars: 1070
   added_date: "2026-05-19"
