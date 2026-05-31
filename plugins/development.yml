@@ -38,3 +38,6 @@
   author: NigelGreenway
   stars: 9
   added_date: '2026-02-17'
+- repo: gbrennon/tmux-worktrees
+  description: git worktrees management plugin for tmux
+  author: gbrennon
