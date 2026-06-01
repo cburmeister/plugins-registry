@@ -1,12 +1,12 @@
 - repo: catppuccin/tmux
   description: Soothing pastel theme for Tmux
   author: catppuccin
-  stars: 3040
+  stars: 3045
   added_date: '2026-02-17'
 - repo: dracula/tmux
   description: Dark theme for Tmux
   author: dracula
-  stars: 837
+  stars: 838
   added_date: '2026-02-17'
 - repo: arcticicestudio/nord-tmux
   description: Arctic north-bluish clean color theme
@@ -21,7 +21,7 @@
 - repo: egel/tmux-gruvbox
   description: Light and dark gruvbox color scheme
   author: egel
-  stars: 689
+  stars: 691
   added_date: '2026-02-17'
 - repo: o0th/tmux-nova
   description: Fully customizable theme system for Tmux
@@ -31,12 +31,12 @@
 - repo: wfxr/tmux-power
   description: Eight powerline-style theme variants
   author: wfxr
-  stars: 682
+  stars: 684
   added_date: '2026-02-17'
 - repo: jimeh/tmux-themepack
   description: Collection of various themes for Tmux
   author: jimeh
-  stars: 1749
+  stars: 1748
   added_date: '2026-02-17'
 - repo: janoamaral/tokyo-night-tmux
   description: Tokyo Night color scheme for Tmux
@@ -56,7 +56,7 @@
 - repo: 2KAbhishek/tmux2k
   description: Customizable powerline status bar framework
   author: 2KAbhishek
-  stars: 419
+  stars: 422
   added_date: '2026-02-17'
 - repo: niksingh710/minimal-tmux-status
   description: Minimal and clean status bar theme
@@ -91,7 +91,7 @@
 - repo: vaaleyard/tmux-dotbar
   description: Simple and minimalist dot-style status bar theme
   author: vaaleyard
-  stars: 251
+  stars: 255
   added_date: '2026-02-17'
 - repo: thekylehuang/cole-tmux
   description: Stationery-inspired minimal theme with vintage earth tones
