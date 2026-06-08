@@ -1,12 +1,12 @@
 - repo: catppuccin/tmux
   description: Soothing pastel theme for Tmux
   author: catppuccin
-  stars: 3045
+  stars: 3054
   added_date: '2026-02-17'
 - repo: dracula/tmux
   description: Dark theme for Tmux
   author: dracula
-  stars: 838
+  stars: 839
   added_date: '2026-02-17'
 - repo: arcticicestudio/nord-tmux
   description: Arctic north-bluish clean color theme
@@ -16,7 +16,7 @@
 - repo: rose-pine/tmux
   description: Soho vibes aesthetic theme for Tmux
   author: rose-pine
-  stars: 266
+  stars: 267
   added_date: '2026-02-17'
 - repo: egel/tmux-gruvbox
   description: Light and dark gruvbox color scheme
@@ -26,22 +26,22 @@
 - repo: o0th/tmux-nova
   description: Fully customizable theme system for Tmux
   author: o0th
-  stars: 207
+  stars: 208
   added_date: '2026-02-17'
 - repo: wfxr/tmux-power
   description: Eight powerline-style theme variants
   author: wfxr
-  stars: 684
+  stars: 685
   added_date: '2026-02-17'
 - repo: jimeh/tmux-themepack
   description: Collection of various themes for Tmux
   author: jimeh
-  stars: 1748
+  stars: 1747
   added_date: '2026-02-17'
 - repo: janoamaral/tokyo-night-tmux
   description: Tokyo Night color scheme for Tmux
   author: janoamaral
-  stars: 559
+  stars: 560
   added_date: '2026-02-17'
 - repo: Nybkox/tmux-kanagawa
   description: Dark color scheme inspired by Hokusai artwork
@@ -51,12 +51,12 @@
 - repo: seebi/tmux-colors-solarized
   description: Solarized color implementation for Tmux
   author: seebi
-  stars: 1107
+  stars: 1102
   added_date: '2026-02-17'
 - repo: 2KAbhishek/tmux2k
   description: Customizable powerline status bar framework
   author: 2KAbhishek
-  stars: 422
+  stars: 425
   added_date: '2026-02-17'
 - repo: niksingh710/minimal-tmux-status
   description: Minimal and clean status bar theme
@@ -91,7 +91,7 @@
 - repo: vaaleyard/tmux-dotbar
   description: Simple and minimalist dot-style status bar theme
   author: vaaleyard
-  stars: 255
+  stars: 259
   added_date: '2026-02-17'
 - repo: thekylehuang/cole-tmux
   description: Stationery-inspired minimal theme with vintage earth tones
