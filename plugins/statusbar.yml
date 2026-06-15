@@ -1,12 +1,12 @@
 - repo: tmux-plugins/tmux-battery
   description: Battery percentage and icon indicator
   author: tmux-plugins
-  stars: 566
+  stars: 567
   added_date: '2026-02-17'
 - repo: tmux-plugins/tmux-cpu
   description: CPU usage percentage display
   author: tmux-plugins
-  stars: 526
+  stars: 528
   added_date: '2026-02-17'
 - repo: tmux-plugins/tmux-online-status
   description: Display online and offline status
@@ -16,7 +16,7 @@
 - repo: tmux-plugins/tmux-prefix-highlight
   description: Highlights when prefix key is pressed
   author: tmux-plugins
-  stars: 664
+  stars: 665
   added_date: '2026-02-17'
 - repo: thewtex/tmux-mem-cpu-load
   description: CPU, RAM, and system load monitor
@@ -46,7 +46,7 @@
 - repo: olimorris/tmux-pomodoro-plus
   description: Pomodoro timer integration
   author: olimorris
-  stars: 463
+  stars: 462
   added_date: '2026-02-17'
 - repo: charlietag/tmux-split-statusbar
   description: Split status bar into two rows
@@ -56,12 +56,12 @@
 - repo: TheSast/tmux-transient-status
   description: Auto-hide status bar when inactive
   author: TheSast
-  stars: 23
+  stars: 22
   added_date: '2026-02-17'
 - repo: joshmedeski/tmux-nerd-font-window-name
   description: Nerd Font icons for window names
   author: joshmedeski
-  stars: 213
+  stars: 214
   added_date: '2026-02-17'
 - repo: alexanderjeurissen/tmux-world-clock
   description: Display multiple timezone clocks
@@ -76,7 +76,7 @@
 - repo: erikw/tmux-powerline
   description: Dynamic powerline-style status bar segments
   author: erikw
-  stars: 3798
+  stars: 3800
   added_date: '2026-02-17'
 - repo: tmux-plugins/tmux-net-speed
   description: Upload and download speed monitor
@@ -86,7 +86,7 @@
 - repo: jonmosco/kube-tmux
   description: Kubernetes context and namespace display
   author: jonmosco
-  stars: 382
+  stars: 383
   added_date: '2026-02-17'
 - repo: anghootys/tmux-ip-address
   description: Show public IP address in status bar
@@ -106,7 +106,7 @@
 - repo: spywhere/tmux-now-playing
   description: Show currently playing track with controls
   author: spywhere
-  stars: 42
+  stars: 43
   added_date: '2026-02-17'
 - repo: tmux-plugins/tmux-urlview
   description: Quick opening of URLs from terminal
@@ -121,7 +121,7 @@
 - repo: fabioluciano/tmux-powerkit
   description: Ultimate status bar framework with many widgets
   author: fabioluciano
-  stars: 573
+  stars: 575
   added_date: '2026-02-17'
 - repo: barlevalon/tmux-nowplaying-macos
   description: Display macOS system-wide Now Playing info
@@ -136,7 +136,7 @@
 - repo: jtmcginty/tmux-session-dots
   description: Visual session indicator showing all sessions as dots
   author: jtmcginty
-  stars: 24
+  stars: 25
   added_date: '2026-02-19'
 - repo: YousefHadder/tmux-speedtest
   description: Run internet speed tests and display results in the status bar
