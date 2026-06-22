@@ -1,7 +1,7 @@
 - repo: tmux-plugins/tmux-example-plugin
   description: Example plugin template for developers
   author: tmux-plugins
-  stars: 48
+  stars: 49
   added_date: '2026-02-17'
 - repo: tmux-plugins/tmux-test
   description: Isolated testing framework for tmux plugins

@@ -1,12 +1,12 @@
 - repo: tmux-plugins/tmux-battery
   description: Battery percentage and icon indicator
   author: tmux-plugins
-  stars: 567
+  stars: 569
   added_date: '2026-02-17'
 - repo: tmux-plugins/tmux-cpu
   description: CPU usage percentage display
   author: tmux-plugins
-  stars: 528
+  stars: 530
   added_date: '2026-02-17'
 - repo: tmux-plugins/tmux-online-status
   description: Display online and offline status
@@ -16,12 +16,12 @@
 - repo: tmux-plugins/tmux-prefix-highlight
   description: Highlights when prefix key is pressed
   author: tmux-plugins
-  stars: 665
+  stars: 666
   added_date: '2026-02-17'
 - repo: thewtex/tmux-mem-cpu-load
   description: CPU, RAM, and system load monitor
   author: thewtex
-  stars: 1114
+  stars: 1115
   added_date: '2026-02-17'
 - repo: arl/gitmux
   description: Show Git status in the status bar
@@ -31,7 +31,7 @@
 - repo: MunifTanjim/tmux-mode-indicator
   description: Display current active Tmux mode
   author: MunifTanjim
-  stars: 197
+  stars: 198
   added_date: '2026-02-17'
 - repo: ofirgall/tmux-window-name
   description: Smart automatic window naming
@@ -46,7 +46,7 @@
 - repo: olimorris/tmux-pomodoro-plus
   description: Pomodoro timer integration
   author: olimorris
-  stars: 462
+  stars: 461
   added_date: '2026-02-17'
 - repo: charlietag/tmux-split-statusbar
   description: Split status bar into two rows
@@ -56,12 +56,12 @@
 - repo: TheSast/tmux-transient-status
   description: Auto-hide status bar when inactive
   author: TheSast
-  stars: 22
+  stars: 23
   added_date: '2026-02-17'
 - repo: joshmedeski/tmux-nerd-font-window-name
   description: Nerd Font icons for window names
   author: joshmedeski
-  stars: 214
+  stars: 216
   added_date: '2026-02-17'
 - repo: alexanderjeurissen/tmux-world-clock
   description: Display multiple timezone clocks
@@ -76,7 +76,7 @@
 - repo: erikw/tmux-powerline
   description: Dynamic powerline-style status bar segments
   author: erikw
-  stars: 3800
+  stars: 3803
   added_date: '2026-02-17'
 - repo: tmux-plugins/tmux-net-speed
   description: Upload and download speed monitor
@@ -86,12 +86,12 @@
 - repo: jonmosco/kube-tmux
   description: Kubernetes context and namespace display
   author: jonmosco
-  stars: 383
+  stars: 384
   added_date: '2026-02-17'
 - repo: anghootys/tmux-ip-address
   description: Show public IP address in status bar
   author: anghootys
-  stars: 19
+  stars: 20
   added_date: '2026-02-17'
 - repo: robhurring/tmux-uptime
   description: Display system uptime in status line
@@ -121,7 +121,7 @@
 - repo: fabioluciano/tmux-powerkit
   description: Ultimate status bar framework with many widgets
   author: fabioluciano
-  stars: 575
+  stars: 579
   added_date: '2026-02-17'
 - repo: barlevalon/tmux-nowplaying-macos
   description: Display macOS system-wide Now Playing info
