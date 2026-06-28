@@ -58,85 +58,11 @@ jobs:
 
       - name: Rebuild merged registry
         if: steps.stars.outputs.changed == 'true'
-        run: |
-          echo "categories:" > dist/plugins.yml
-
-          for f in plugins/*.yml; do
-            cat=$(basename "$f" .yml)
-            echo "  - $cat" >> dist/plugins.yml
-          done
-
-          echo "" >> dist/plugins.yml
-          echo "plugins:" >> dist/plugins.yml
-
-          for f in plugins/*.yml; do
-            cat=$(basename "$f" .yml)
-            count=$(yq eval 'length' "$f")
-            if [ "$count" = "0" ]; then continue; fi
-
-            for i in $(seq 0 $(( count - 1 ))); do
-              repo=$(yq eval ".[$i].repo" "$f")
-              desc=$(yq eval ".[$i].description" "$f")
-              author=$(yq eval ".[$i].author" "$f")
-              stars=$(yq eval ".[$i].stars // 0" "$f")
-              host=$(yq eval ".[$i].host // \"\"" "$f")
-
-              echo "  - repo: $repo" >> dist/plugins.yml
-              echo "    description: \"$desc\"" >> dist/plugins.yml
-              echo "    author: $author" >> dist/plugins.yml
-              echo "    category: $cat" >> dist/plugins.yml
-              echo "    stars: $stars" >> dist/plugins.yml
-              if [ -n "$host" ]; then
-                echo "    host: $host" >> dist/plugins.yml
-              fi
-            done
-          done
+        run: bash scripts/build_dist.sh
 
       - name: Regenerate README
         if: steps.stars.outputs.changed == 'true'
-        run: |
-          {
-            echo "# tpack Plugin Registry"
-            echo ""
-            echo "Community-maintained plugin list for [tpack](https://github.com/tmuxpack/tpack)."
-            echo ""
-            echo "## Adding a Plugin"
-            echo ""
-            echo "See [CONTRIBUTING.md](CONTRIBUTING.md)."
-            echo ""
-
-            for f in plugins/*.yml; do
-              cat=$(basename "$f" .yml)
-              echo "## ${cat^}"
-              echo ""
-              echo "| Plugin | Description | Stars |"
-              echo "|--------|-------------|-------|"
-
-              count=$(yq eval 'length' "$f")
-              if [ "$count" = "0" ]; then
-                echo "| *No plugins yet* | | |"
-                echo ""
-                continue
-              fi
-
-              tmpfile=$(mktemp)
-              for i in $(seq 0 $(( count - 1 ))); do
-                repo=$(yq eval ".[$i].repo" "$f")
-                desc=$(yq eval ".[$i].description" "$f")
-                stars=$(yq eval ".[$i].stars // 0" "$f")
-                host=$(yq eval ".[$i].host // \"\"" "$f")
-                name="${repo#*/}"
-                owner="${repo%%/*}"
-                link_host="${host:-github.com}"
-                printf '%s\t%s\t%s\t%s\t%s\t%s\n' "$name" "$owner" "$repo" "$desc" "$stars" "$link_host" >> "$tmpfile"
-              done
-              sort -t$'\t' -k1,1 -f "$tmpfile" | while IFS=$'\t' read -r name owner repo desc stars link_host; do
-                echo "| ${owner}/[**${name}**](https://${link_host}/${repo}) | ${desc} | ${stars} |"
-              done
-              rm -f "$tmpfile"
-              echo ""
-            done
-          } > README.md
+        run: bash scripts/build_readme.sh
 
       - name: Commit changes
         if: steps.stars.outputs.changed == 'true'
