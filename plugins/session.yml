@@ -18,9 +18,9 @@
   author: 27medkamal
   stars: 258
   added_date: '2026-02-17'
-- repo: thuanOwa/tmux-fzf-session-switch
+- repo: cutbypham/tmux-fzf-session-switch
   description: Easy session switching with fzf
-  author: thuanOwa
+  author: cutbypham
   stars: 0
   added_date: '2026-02-17'
 - repo: joshmedeski/sesh
