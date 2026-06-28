@@ -87,6 +87,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          failed=""
           for f in plugins/*.yml; do
             count=$(yq eval 'length' "$f")
             if [ "$count" = "0" ]; then continue; fi
@@ -99,17 +100,35 @@ jobs:
                   -H "Authorization: token $GH_TOKEN" \
                   "https://api.github.com/repos/$repo")
                 if [ "$status" != "200" ]; then
-                  echo "Repo not found: $repo (HTTP $status)"; exit 1
+                  if [ "$status" = "301" ] || [ "$status" = "302" ]; then
+                    new=$(curl -sL -o /dev/null -w "%{url_effective}" \
+                      -H "Authorization: token $GH_TOKEN" \
+                      "https://api.github.com/repos/$repo" \
+                      | sed 's#https://api.github.com/repos/##')
+                    echo "::error::Repo moved: $repo (HTTP $status) -> $new in $f"
+                    failed="$failed\n  $repo (HTTP $status, moved -> $new) in $f"
+                  else
+                    echo "::error::Repo not found: $repo (HTTP $status) in $f"
+                    failed="$failed\n  $repo (HTTP $status) in $f"
+                  fi
                 fi
               elif [ "$host" = "gitlab.com" ]; then
                 encoded=$(echo "$repo" | sed 's/\//%2F/')
                 status=$(curl -s -o /dev/null -w "%{http_code}" \
                   "https://gitlab.com/api/v4/projects/$encoded")
                 if [ "$status" != "200" ]; then
-                  echo "Repo not found: $repo on gitlab.com (HTTP $status)"; exit 1
+                  echo "::error::Repo not found: $repo on gitlab.com (HTTP $status) in $f"
+                  failed="$failed\n  $repo on gitlab.com (HTTP $status) in $f"
                 fi
               else
                 echo "Skipping existence check for $repo on $host (unsupported host)"
               fi
             done
           done
+          if [ -n "$failed" ]; then
+            echo ""
+            echo "The following repos failed verification:"
+            printf '%b\n' "$failed"
+            exit 1
+          fi
+          echo "All repos verified successfully."
