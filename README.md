@@ -59,13 +59,13 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 | Plugin | Description | Stars |
 |--------|-------------|-------|
 | joshmedeski/[**sesh**](https://github.com/joshmedeski/sesh) | Smart terminal session manager | 2632 |
-| juancruzfl/[**tmux-canvas**](https://github.com/juancruzfl/tmux-canvas) | Layout management with state persistence | 0 |
 | tmux-plugins/[**tmux-continuum**](https://github.com/tmux-plugins/tmux-continuum) | Continuous saving of tmux environment | 3989 |
 | clanghans/[**tmux-frost**](https://github.com/clanghans/tmux-frost) | Minimal session save and restore plugin | 8 |
 | cutbypham/[**tmux-fzf-session-switch**](https://github.com/cutbypham/tmux-fzf-session-switch) | Easy session switching with fzf | 95 |
+| juancruzfl/[**tmux-layouts**](https://github.com/juancruzfl/tmux-layouts) | Layout management with state persistence | 8 |
 | bcampolo/[**tmux-lazy-restore**](https://github.com/bcampolo/tmux-lazy-restore) | Lazy session restore with deferred command execution | 44 |
+| niqodea/[**tmux-matryoshka**](https://github.com/niqodea/tmux-matryoshka) | Support for arbitrary levels of nested sessions | 75 |
 | spywhere/[**tmux-named-snapshot**](https://github.com/spywhere/tmux-named-snapshot) | Named snapshot support for tmux-resurrect | 45 |
-| niqodea/[**tmux-nested**](https://github.com/niqodea/tmux-nested) | Support for arbitrary levels of nested sessions | 0 |
 | tmux-plugins/[**tmux-resurrect**](https://github.com/tmux-plugins/tmux-resurrect) | Persists tmux environment across system restarts | 12884 |
 | 27medkamal/[**tmux-session-wizard**](https://github.com/27medkamal/tmux-session-wizard) | Session creation with fzf and zoxide | 258 |
 | tmux-plugins/[**tmux-sessionist**](https://github.com/tmux-plugins/tmux-sessionist) | Lightweight session manipulation utilities | 463 |
@@ -95,9 +95,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 | odtgit/[**tmux-mpris**](https://github.com/odtgit/tmux-mpris) | MPRIS now-playing media widget using playerctl | 0 |
 | joshmedeski/[**tmux-nerd-font-window-name**](https://github.com/joshmedeski/tmux-nerd-font-window-name) | Nerd Font icons for window names | 216 |
 | tmux-plugins/[**tmux-net-speed**](https://github.com/tmux-plugins/tmux-net-speed) | Upload and download speed monitor | 93 |
-| xamut/[**tmux-network-bandwidth**](https://github.com/xamut/tmux-network-bandwidth) | Network bandwidth usage display | 0 |
+| ilya-manin/[**tmux-network-bandwidth**](https://github.com/ilya-manin/tmux-network-bandwidth) | Network bandwidth usage display | 85 |
 | spywhere/[**tmux-now-playing**](https://github.com/spywhere/tmux-now-playing) | Show currently playing track with controls | 43 |
-| barlevalon/[**tmux-nowplaying-macos**](https://github.com/barlevalon/tmux-nowplaying-macos) | Display macOS system-wide Now Playing info | 0 |
+| barlevalon/[**tmux-nowplaying**](https://github.com/barlevalon/tmux-nowplaying) | Display macOS system-wide Now Playing info | 6 |
 | tmux-plugins/[**tmux-online-status**](https://github.com/tmux-plugins/tmux-online-status) | Display online and offline status | 185 |
 | samoshkin/[**tmux-plugin-sysstat**](https://github.com/samoshkin/tmux-plugin-sysstat) | CPU, memory, swap, load average, and net I/O metrics | 172 |
 | olimorris/[**tmux-pomodoro-plus**](https://github.com/olimorris/tmux-pomodoro-plus) | Pomodoro timer integration | 461 |
@@ -121,17 +121,16 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 | Plugin | Description | Stars |
 |--------|-------------|-------|
 | thekylehuang/[**cole-tmux**](https://github.com/thekylehuang/cole-tmux) | Stationery-inspired minimal theme with vintage earth tones | 6 |
-| niksingh710/[**minimal-tmux-status**](https://github.com/niksingh710/minimal-tmux-status) | Minimal and clean status bar theme | 0 |
-| arcticicestudio/[**nord-tmux**](https://github.com/arcticicestudio/nord-tmux) | Arctic north-bluish clean color theme | 0 |
+| semi710/[**minimal-tmux-status**](https://github.com/semi710/minimal-tmux-status) | Minimal and clean status bar theme | 268 |
 | catppuccin/[**tmux**](https://github.com/catppuccin/tmux) | Soothing pastel theme for Tmux | 3084 |
 | dracula/[**tmux**](https://github.com/dracula/tmux) | Dark theme for Tmux | 842 |
+| nordtheme/[**tmux**](https://github.com/nordtheme/tmux) | Arctic north-bluish clean color theme | 1193 |
 | rose-pine/[**tmux**](https://github.com/rose-pine/tmux) | Soho vibes aesthetic theme for Tmux | 268 |
 | seebi/[**tmux-colors-solarized**](https://github.com/seebi/tmux-colors-solarized) | Solarized color implementation for Tmux | 1101 |
 | leighmcculloch/[**tmux-colours-superhero**](https://github.com/leighmcculloch/tmux-colours-superhero) | Superhero themed color scheme | 13 |
 | erikw/[**tmux-dark-notify**](https://github.com/erikw/tmux-dark-notify) | Auto-switch dark and light mode on macOS | 96 |
 | vaaleyard/[**tmux-dotbar**](https://github.com/vaaleyard/tmux-dotbar) | Simple and minimalist dot-style status bar theme | 268 |
 | egel/[**tmux-gruvbox**](https://github.com/egel/tmux-gruvbox) | Light and dark gruvbox color scheme | 693 |
-| Nybkox/[**tmux-kanagawa**](https://github.com/Nybkox/tmux-kanagawa) | Dark color scheme inspired by Hokusai artwork | 0 |
 | binoymanoj/[**tmux-minimal-theme**](https://github.com/binoymanoj/tmux-minimal-theme) | Clean minimal customizable theme with built-in system monitoring | 46 |
 | pavlemmm/[**tmux-minithemes**](https://github.com/pavlemmm/tmux-minithemes) | Collection of beautiful minimal themes with multiple color schemes | 5 |
 | Wabri/[**tmux-nord-plusplus**](https://github.com/Wabri/tmux-nord-plusplus) | Nord theme with battery and pomodoro support | 12 |
@@ -140,6 +139,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 | wfxr/[**tmux-power**](https://github.com/wfxr/tmux-power) | Eight powerline-style theme variants | 686 |
 | ivnvxd/[**tmux-snazzy**](https://github.com/ivnvxd/tmux-snazzy) | Elegant theme with bright colors | 26 |
 | jimeh/[**tmux-themepack**](https://github.com/jimeh/tmux-themepack) | Collection of various themes for Tmux | 1749 |
+| Nybkox/[**tmux-ukiyo**](https://github.com/Nybkox/tmux-ukiyo) | Dark color scheme inspired by Hokusai artwork | 144 |
 | 2KAbhishek/[**tmux2k**](https://github.com/2KAbhishek/tmux2k) | Customizable powerline status bar framework | 431 |
 | janoamaral/[**tokyo-night-tmux**](https://github.com/janoamaral/tokyo-night-tmux) | Tokyo Night color scheme for Tmux | 564 |
 | tarquibrian/[**vanzi**](https://github.com/tarquibrian/vanzi) | Clean and minimalist tmux theme | 8 |

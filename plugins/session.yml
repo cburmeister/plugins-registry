@@ -51,7 +51,7 @@
 - repo: niqodea/tmux-matryoshka
   description: Support for arbitrary levels of nested sessions
   author: niqodea
-  stars: 0
+  stars: 75
   added_date: '2026-02-17'
 - repo: lljbash/tmux-update-display
   description: Update DISPLAY variable when reattaching sessions
@@ -66,7 +66,7 @@
 - repo: juancruzfl/tmux-layouts
   description: Layout management with state persistence
   author: juancruzfl
-  stars: 0
+  stars: 8
   added_date: '2026-02-17'
 - repo: binoymanoj/tmux-zenflow
   description: Zen workflow session manager for tmux

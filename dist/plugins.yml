@@ -266,11 +266,11 @@ plugins:
     category: session
     stars: 45
     added_date: "2026-02-17"
-  - repo: niqodea/tmux-nested
+  - repo: niqodea/tmux-matryoshka
     description: "Support for arbitrary levels of nested sessions"
     author: niqodea
     category: session
-    stars: 0
+    stars: 75
     added_date: "2026-02-17"
   - repo: lljbash/tmux-update-display
     description: "Update DISPLAY variable when reattaching sessions"
@@ -284,11 +284,11 @@ plugins:
     category: session
     stars: 44
     added_date: "2026-02-17"
-  - repo: juancruzfl/tmux-canvas
+  - repo: juancruzfl/tmux-layouts
     description: "Layout management with state persistence"
     author: juancruzfl
     category: session
-    stars: 0
+    stars: 8
     added_date: "2026-02-17"
   - repo: binoymanoj/tmux-zenflow
     description: "Zen workflow session manager for tmux"
@@ -356,11 +356,11 @@ plugins:
     category: statusbar
     stars: 289
     added_date: "2026-02-17"
-  - repo: xamut/tmux-network-bandwidth
+  - repo: ilya-manin/tmux-network-bandwidth
     description: "Network bandwidth usage display"
-    author: xamut
+    author: ilya-manin
     category: statusbar
-    stars: 0
+    stars: 85
     added_date: "2026-02-17"
   - repo: olimorris/tmux-pomodoro-plus
     description: "Pomodoro timer integration"
@@ -458,11 +458,11 @@ plugins:
     category: statusbar
     stars: 582
     added_date: "2026-02-17"
-  - repo: barlevalon/tmux-nowplaying-macos
+  - repo: barlevalon/tmux-nowplaying
     description: "Display macOS system-wide Now Playing info"
     author: barlevalon
     category: statusbar
-    stars: 0
+    stars: 6
     added_date: "2026-02-17"
   - repo: playbahn/tmux-cpu-rs
     description: "Fast Rust-based CPU usage monitor"
@@ -530,11 +530,11 @@ plugins:
     category: theme
     stars: 842
     added_date: "2026-02-17"
-  - repo: arcticicestudio/nord-tmux
+  - repo: nordtheme/tmux
     description: "Arctic north-bluish clean color theme"
-    author: arcticicestudio
+    author: nordtheme
     category: theme
-    stars: 0
+    stars: 1193
     added_date: "2026-02-17"
   - repo: rose-pine/tmux
     description: "Soho vibes aesthetic theme for Tmux"
@@ -572,11 +572,11 @@ plugins:
     category: theme
     stars: 564
     added_date: "2026-02-17"
-  - repo: Nybkox/tmux-kanagawa
+  - repo: Nybkox/tmux-ukiyo
     description: "Dark color scheme inspired by Hokusai artwork"
     author: Nybkox
     category: theme
-    stars: 0
+    stars: 144
     added_date: "2026-02-17"
   - repo: seebi/tmux-colors-solarized
     description: "Solarized color implementation for Tmux"
@@ -590,11 +590,11 @@ plugins:
     category: theme
     stars: 431
     added_date: "2026-02-17"
-  - repo: niksingh710/minimal-tmux-status
+  - repo: semi710/minimal-tmux-status
     description: "Minimal and clean status bar theme"
-    author: niksingh710
+    author: semi710
     category: theme
-    stars: 0
+    stars: 268
     added_date: "2026-02-17"
   - repo: erikw/tmux-dark-notify
     description: "Auto-switch dark and light mode on macOS"

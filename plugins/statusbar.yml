@@ -41,7 +41,7 @@
 - repo: ilya-manin/tmux-network-bandwidth
   description: Network bandwidth usage display
   author: ilya-manin
-  stars: 0
+  stars: 85
   added_date: '2026-02-17'
 - repo: olimorris/tmux-pomodoro-plus
   description: Pomodoro timer integration
@@ -126,7 +126,7 @@
 - repo: barlevalon/tmux-nowplaying
   description: Display macOS system-wide Now Playing info
   author: barlevalon
-  stars: 0
+  stars: 6
   added_date: '2026-02-17'
 - repo: playbahn/tmux-cpu-rs
   description: Fast Rust-based CPU usage monitor
