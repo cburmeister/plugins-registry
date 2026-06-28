@@ -11,7 +11,7 @@
 - repo: GianlucaP106/gotmux
   description: Golang library for tmux interaction
   author: GianlucaP106
-  stars: 49
+  stars: 50
   added_date: '2026-02-17'
 - repo: alexekdahl/tmux-compile
   description: Run compile commands with automatic pane
@@ -21,7 +21,7 @@
 - repo: naqerl/tmux-cargo
   description: Run Cargo commands from tmux
   author: naqerl
-  stars: 0
+  stars: 7
   added_date: '2026-02-17'
 - repo: AngryMorrocoy/tmux-neolazygit
   description: Lazygit integration with tmux and neovim
@@ -41,3 +41,5 @@
 - repo: gbrennon/tmux-worktrees
   description: git worktrees management plugin for tmux
   author: gbrennon
+  stars: 0
+  added_date: "2026-06-28"
