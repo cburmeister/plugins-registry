@@ -18,9 +18,9 @@
   author: alexekdahl
   stars: 20
   added_date: '2026-02-17'
-- repo: idevtier/tmux-cargo
+- repo: naqerl/tmux-cargo
   description: Run Cargo commands from tmux
-  author: idevtier
+  author: naqerl
   stars: 0
   added_date: '2026-02-17'
 - repo: AngryMorrocoy/tmux-neolazygit
