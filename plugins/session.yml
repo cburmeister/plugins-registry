@@ -48,7 +48,7 @@
   author: spywhere
   stars: 45
   added_date: '2026-02-17'
-- repo: niqodea/tmux-nested
+- repo: niqodea/tmux-matryoshka
   description: Support for arbitrary levels of nested sessions
   author: niqodea
   stars: 0
@@ -63,7 +63,7 @@
   author: bcampolo
   stars: 44
   added_date: '2026-02-17'
-- repo: juancruzfl/tmux-canvas
+- repo: juancruzfl/tmux-layouts
   description: Layout management with state persistence
   author: juancruzfl
   stars: 0

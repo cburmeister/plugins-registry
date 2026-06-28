@@ -8,9 +8,9 @@
   author: dracula
   stars: 842
   added_date: '2026-02-17'
-- repo: arcticicestudio/nord-tmux
+- repo: nordtheme/tmux
   description: Arctic north-bluish clean color theme
-  author: arcticicestudio
+  author: nordtheme
   stars: 0
   added_date: '2026-02-17'
 - repo: rose-pine/tmux
@@ -43,7 +43,7 @@
   author: janoamaral
   stars: 564
   added_date: '2026-02-17'
-- repo: Nybkox/tmux-kanagawa
+- repo: Nybkox/tmux-ukiyo
   description: Dark color scheme inspired by Hokusai artwork
   author: Nybkox
   stars: 0
@@ -58,9 +58,9 @@
   author: 2KAbhishek
   stars: 431
   added_date: '2026-02-17'
-- repo: niksingh710/minimal-tmux-status
+- repo: semi710/minimal-tmux-status
   description: Minimal and clean status bar theme
-  author: niksingh710
+  author: semi710
   stars: 0
   added_date: '2026-02-17'
 - repo: erikw/tmux-dark-notify
