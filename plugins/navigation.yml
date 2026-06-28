@@ -78,11 +78,6 @@
   author: Kristijan
   stars: 43
   added_date: '2026-02-17'
-- repo: gufranco/tmux-tiling-revamped
-  description: BSP tiling window management with multiple layouts and fzf picker
-  author: gufranco
-  added_date: '2026-04-11'
-  stars: 13
 - repo: sandudorogan/tmux-pane-tree
   description: Interactive pane tree sidebar with Vim-style navigation
   author: sandudorogan
