@@ -1,7 +1,7 @@
 - repo: tmux-plugins/tmux-resurrect
   description: Persists tmux environment across system restarts
   author: tmux-plugins
-  stars: 12884
+  stars: 12887
   added_date: '2026-02-17'
 - repo: tmux-plugins/tmux-continuum
   description: Continuous saving of tmux environment
