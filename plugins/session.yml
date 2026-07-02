@@ -1,12 +1,12 @@
 - repo: tmux-plugins/tmux-resurrect
   description: Persists tmux environment across system restarts
   author: tmux-plugins
-  stars: 12887
+  stars: 12896
   added_date: '2026-02-17'
 - repo: tmux-plugins/tmux-continuum
   description: Continuous saving of tmux environment
   author: tmux-plugins
-  stars: 3989
+  stars: 3996
   added_date: '2026-02-17'
 - repo: tmux-plugins/tmux-sessionist
   description: Lightweight session manipulation utilities
@@ -26,7 +26,7 @@
 - repo: joshmedeski/sesh
   description: Smart terminal session manager
   author: joshmedeski
-  stars: 2632
+  stars: 2647
   added_date: '2026-02-17'
 - repo: omerxx/tmux-sessionx
   description: Session manager with zoxide and fuzzy finding

@@ -1,22 +1,22 @@
 - repo: tmux-plugins/tmux-pain-control
   description: Standard pane key-bindings for tmux
   author: tmux-plugins
-  stars: 857
+  stars: 858
   added_date: '2026-02-17'
 - repo: christoomey/vim-tmux-navigator
   description: Seamless navigation between Vim and tmux
   author: christoomey
-  stars: 6239
+  stars: 6242
   added_date: '2026-02-17'
 - repo: Morantron/tmux-fingers
   description: Vimium-like copy and paste hints
   author: Morantron
-  stars: 1428
+  stars: 1430
   added_date: '2026-02-17'
 - repo: fcsonline/tmux-thumbs
   description: Fast copy and paste with Rust-powered hints
   author: fcsonline
-  stars: 1083
+  stars: 1084
   added_date: '2026-02-17'
 - repo: schasse/tmux-jump
   description: Vimium and Easymotion-like navigation
@@ -26,7 +26,7 @@
 - repo: wfxr/tmux-fzf-url
   description: Quick URL opening with fzf
   author: wfxr
-  stars: 720
+  stars: 721
   added_date: '2026-02-17'
 - repo: roosta/tmux-fuzzback
   description: Search scrollback buffer with fzf
@@ -46,7 +46,7 @@
 - repo: greymd/tmux-xpanes
   description: Terminal divider and pane utility
   author: greymd
-  stars: 2099
+  stars: 2101
   added_date: '2026-02-17'
 - repo: jaclu/tmux-mouse-swipe
   description: Switch window or session with right-click swipe
@@ -56,7 +56,7 @@
 - repo: abhinav/tmux-fastcopy
   description: Easymotion-style text copying
   author: abhinav
-  stars: 92
+  stars: 93
   added_date: '2026-02-17'
 - repo: alberti42/tmux-fzf-links
   description: Open any type of link with fzf
@@ -92,3 +92,5 @@
   host: codeberg.org
   description: displays the content of the current directory in a pane with live updates
   author: chris-paganon
+  stars: 0
+  added_date: "2026-07-02"

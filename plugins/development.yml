@@ -41,5 +41,5 @@
 - repo: gbrennon/tmux-worktrees
   description: git worktrees management plugin for tmux
   author: gbrennon
-  stars: 0
+  stars: 1
   added_date: "2026-06-28"
