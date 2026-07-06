@@ -7,7 +7,7 @@
   description: Show which tmux sessions have AI agents working or idle
   author: samleeney
   added_date: '2026-04-11'
-  stars: 217
+  stars: 220
 - repo: qeesung/tmux-scout
   description: Monitor and navigate Claude Code and Codex sessions
   author: qeesung
@@ -22,9 +22,9 @@
   description: Show Claude and Codex API usage in the status bar
   author: artischocki
   added_date: '2026-04-11'
-  stars: 13
+  stars: 14
 - repo: Ataraxy-Labs/opensessions
   description: tmux sidebar for coding agents Amp, Claude Code, Codex, and OpenCode with per-thread markers
   author: Ataraxy-Labs
-  stars: 1172
+  stars: 1179
   added_date: "2026-05-19"
