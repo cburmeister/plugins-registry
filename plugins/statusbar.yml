@@ -1,12 +1,12 @@
 - repo: tmux-plugins/tmux-battery
   description: Battery percentage and icon indicator
   author: tmux-plugins
-  stars: 569
+  stars: 570
   added_date: '2026-02-17'
 - repo: tmux-plugins/tmux-cpu
   description: CPU usage percentage display
   author: tmux-plugins
-  stars: 532
+  stars: 533
   added_date: '2026-02-17'
 - repo: tmux-plugins/tmux-online-status
   description: Display online and offline status
@@ -16,22 +16,22 @@
 - repo: tmux-plugins/tmux-prefix-highlight
   description: Highlights when prefix key is pressed
   author: tmux-plugins
-  stars: 668
+  stars: 669
   added_date: '2026-02-17'
 - repo: thewtex/tmux-mem-cpu-load
   description: CPU, RAM, and system load monitor
   author: thewtex
-  stars: 1116
+  stars: 1117
   added_date: '2026-02-17'
 - repo: arl/gitmux
   description: Show Git status in the status bar
   author: arl
-  stars: 790
+  stars: 791
   added_date: '2026-02-17'
 - repo: MunifTanjim/tmux-mode-indicator
   description: Display current active Tmux mode
   author: MunifTanjim
-  stars: 198
+  stars: 197
   added_date: '2026-02-17'
 - repo: ofirgall/tmux-window-name
   description: Smart automatic window naming
@@ -56,12 +56,12 @@
 - repo: TheSast/tmux-transient-status
   description: Auto-hide status bar when inactive
   author: TheSast
-  stars: 23
+  stars: 24
   added_date: '2026-02-17'
 - repo: joshmedeski/tmux-nerd-font-window-name
   description: Nerd Font icons for window names
   author: joshmedeski
-  stars: 217
+  stars: 218
   added_date: '2026-02-17'
 - repo: alexanderjeurissen/tmux-world-clock
   description: Display multiple timezone clocks
@@ -76,7 +76,7 @@
 - repo: erikw/tmux-powerline
   description: Dynamic powerline-style status bar segments
   author: erikw
-  stars: 3806
+  stars: 3810
   added_date: '2026-02-17'
 - repo: tmux-plugins/tmux-net-speed
   description: Upload and download speed monitor
@@ -121,7 +121,7 @@
 - repo: fabioluciano/tmux-powerkit
   description: Ultimate status bar framework with many widgets
   author: fabioluciano
-  stars: 583
+  stars: 582
   added_date: '2026-02-17'
 - repo: barlevalon/tmux-nowplaying
   description: Display macOS system-wide Now Playing info
@@ -136,7 +136,7 @@
 - repo: jtmcginty/tmux-session-dots
   description: Visual session indicator showing all sessions as dots
   author: jtmcginty
-  stars: 26
+  stars: 27
   added_date: '2026-02-19'
 - repo: YousefHadder/tmux-speedtest
   description: Run internet speed tests and display results in the status bar

@@ -31,7 +31,7 @@
 - repo: KakkoiDev/tmux-worktree
   description: Git worktree management with native tmux menus
   author: KakkoiDev
-  stars: 25
+  stars: 24
   added_date: '2026-02-17'
 - repo: NigelGreenway/tmux-git-worktree
   description: Create and switch between git worktrees in tmux
