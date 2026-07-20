@@ -11,7 +11,7 @@
 - repo: GianlucaP106/gotmux
   description: Golang library for tmux interaction
   author: GianlucaP106
-  stars: 50
+  stars: 49
   added_date: '2026-02-17'
 - repo: alexekdahl/tmux-compile
   description: Run compile commands with automatic pane
