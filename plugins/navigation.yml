@@ -6,27 +6,27 @@
 - repo: christoomey/vim-tmux-navigator
   description: Seamless navigation between Vim and tmux
   author: christoomey
-  stars: 6254
+  stars: 6258
   added_date: '2026-02-17'
 - repo: Morantron/tmux-fingers
   description: Vimium-like copy and paste hints
   author: Morantron
-  stars: 1451
+  stars: 1456
   added_date: '2026-02-17'
 - repo: fcsonline/tmux-thumbs
   description: Fast copy and paste with Rust-powered hints
   author: fcsonline
-  stars: 1087
+  stars: 1089
   added_date: '2026-02-17'
 - repo: schasse/tmux-jump
   description: Vimium and Easymotion-like navigation
   author: schasse
-  stars: 479
+  stars: 478
   added_date: '2026-02-17'
 - repo: wfxr/tmux-fzf-url
   description: Quick URL opening with fzf
   author: wfxr
-  stars: 723
+  stars: 725
   added_date: '2026-02-17'
 - repo: roosta/tmux-fuzzback
   description: Search scrollback buffer with fzf
@@ -46,7 +46,7 @@
 - repo: greymd/tmux-xpanes
   description: Terminal divider and pane utility
   author: greymd
-  stars: 2102
+  stars: 2103
   added_date: '2026-02-17'
 - repo: jaclu/tmux-mouse-swipe
   description: Switch window or session with right-click swipe
@@ -82,7 +82,7 @@
   description: Interactive pane tree sidebar with Vim-style navigation
   author: sandudorogan
   added_date: '2026-04-11'
-  stars: 43
+  stars: 46
 - repo: nucc/tmux-which-key
   description: LazyVim-style which-key popup with nested groups and Nord theme
   author: nucc
@@ -97,3 +97,5 @@
 - repo: AndreVicencio/tmux-flash
   description: Search visible copy-mode text and jump to labeled matches
   author: AndreVicencio
+  stars: 7
+  added_date: "2026-07-24"
