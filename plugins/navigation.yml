@@ -94,3 +94,6 @@
   author: chris-paganon
   stars: 0
   added_date: "2026-07-02"
+- repo: AndreVicencio/tmux-flash
+  description: Search visible copy-mode text and jump to labeled matches
+  author: AndreVicencio

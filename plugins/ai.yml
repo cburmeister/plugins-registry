@@ -28,3 +28,9 @@
   author: Ataraxy-Labs
   stars: 1193
   added_date: "2026-05-19"
+- repo: snirt/tmux-agents-mon
+  description: Monitor AI coding agents in tmux panes with sidebar and status-line views
+  author: snirt
+- repo: vieitesss/agent-radar
+  description: List and switch between coding agent panes with status and completion notifications
+  author: vieitesss

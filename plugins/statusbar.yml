@@ -173,3 +173,6 @@
   author: jazho76
   stars: 9
   added_date: "2026-05-19"
+- repo: dabstractor/tubular-tmux
+  description: Mode-aware status line and pane border highlighting
+  author: dabstractor

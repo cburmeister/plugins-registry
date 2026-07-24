@@ -83,3 +83,6 @@
   author: sarve-shreyas
   added_date: '2026-04-11'
   stars: 2
+- repo: MeinardEdrei/tmux-spotlight
+  description: Fuzzy switcher for tmux panes, windows, and sessions
+  author: MeinardEdrei
