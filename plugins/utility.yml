@@ -1,12 +1,12 @@
 - repo: tmux-plugins/tmux-sensible
   description: A set of tmux options that should be acceptable to everyone
   author: tmux-plugins
-  stars: 2210
+  stars: 2211
   added_date: '2026-02-17'
 - repo: tmux-plugins/tmux-yank
   description: Tmux plugin for copying to system clipboard
   author: tmux-plugins
-  stars: 3088
+  stars: 3089
   added_date: '2026-02-17'
 - repo: tmux-plugins/tmux-copycat
   description: Enhanced tmux search with regex support
@@ -21,7 +21,7 @@
 - repo: tmux-plugins/tmux-logging
   description: Logging and screen capturing utilities
   author: tmux-plugins
-  stars: 1246
+  stars: 1248
   added_date: '2026-02-17'
 - repo: tmux-plugins/tmux-sidebar
   description: Directory tree sidebar for navigation
@@ -51,7 +51,7 @@
 - repo: jaclu/tmux-menus
   description: Popup menus for environment management
   author: jaclu
-  stars: 527
+  stars: 528
   added_date: '2026-02-17'
 - repo: jabirali/tmux-tilish
   description: Tiling window manager features inspired by i3
@@ -111,12 +111,12 @@
 - repo: sainnhe/tmux-fzf
   description: Manage tmux environment with fzf
   author: sainnhe
-  stars: 1474
+  stars: 1477
   added_date: '2026-02-17'
 - repo: alexwforsythe/tmux-which-key
   description: Customizable popup menu for keybinding discovery
   author: alexwforsythe
-  stars: 301
+  stars: 302
   added_date: '2026-02-17'
 - repo: lloydbond/tmux-floating-terminal
   description: Popup floating terminal window
@@ -156,7 +156,7 @@
 - repo: loichyan/tmux-toggle-popup
   description: Create toggleable popup windows
   author: loichyan
-  stars: 43
+  stars: 44
   added_date: '2026-02-17'
 - repo: YlanAllouche/tmux-task-monitor
   description: Session-grouped process monitor popup TUI
@@ -196,7 +196,7 @@
 - repo: eduwass/tmux-palette
   description: Raycast-style fast and scriptable command palette for tmux
   author: eduwass
-  stars: 390
+  stars: 391
   added_date: "2026-05-19"
 - repo: Yahddyyp/tmux-simple-renamers
   description: Simple window and session renamer integrated with sesh and fzf
