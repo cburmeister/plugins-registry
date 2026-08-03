@@ -1,7 +1,7 @@
 - repo: tmux-plugins/tmux-battery
   description: Battery percentage and icon indicator
   author: tmux-plugins
-  stars: 571
+  stars: 572
   added_date: '2026-02-17'
 - repo: tmux-plugins/tmux-cpu
   description: CPU usage percentage display
@@ -21,22 +21,22 @@
 - repo: thewtex/tmux-mem-cpu-load
   description: CPU, RAM, and system load monitor
   author: thewtex
-  stars: 1119
+  stars: 1121
   added_date: '2026-02-17'
 - repo: arl/gitmux
   description: Show Git status in the status bar
   author: arl
-  stars: 791
+  stars: 790
   added_date: '2026-02-17'
 - repo: MunifTanjim/tmux-mode-indicator
   description: Display current active Tmux mode
   author: MunifTanjim
-  stars: 197
+  stars: 198
   added_date: '2026-02-17'
 - repo: ofirgall/tmux-window-name
   description: Smart automatic window naming
   author: ofirgall
-  stars: 291
+  stars: 292
   added_date: '2026-02-17'
 - repo: ilya-manin/tmux-network-bandwidth
   description: Network bandwidth usage display
@@ -46,7 +46,7 @@
 - repo: olimorris/tmux-pomodoro-plus
   description: Pomodoro timer integration
   author: olimorris
-  stars: 468
+  stars: 470
   added_date: '2026-02-17'
 - repo: charlietag/tmux-split-statusbar
   description: Split status bar into two rows
@@ -76,7 +76,7 @@
 - repo: erikw/tmux-powerline
   description: Dynamic powerline-style status bar segments
   author: erikw
-  stars: 3822
+  stars: 3825
   added_date: '2026-02-17'
 - repo: tmux-plugins/tmux-net-speed
   description: Upload and download speed monitor
@@ -121,7 +121,7 @@
 - repo: fabioluciano/tmux-powerkit
   description: Ultimate status bar framework with many widgets
   author: fabioluciano
-  stars: 590
+  stars: 595
   added_date: '2026-02-17'
 - repo: barlevalon/tmux-nowplaying
   description: Display macOS system-wide Now Playing info

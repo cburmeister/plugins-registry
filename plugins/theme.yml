@@ -1,7 +1,7 @@
 - repo: catppuccin/tmux
   description: Soothing pastel theme for Tmux
   author: catppuccin
-  stars: 3121
+  stars: 3130
   added_date: '2026-02-17'
 - repo: dracula/tmux
   description: Dark theme for Tmux
@@ -16,17 +16,17 @@
 - repo: rose-pine/tmux
   description: Soho vibes aesthetic theme for Tmux
   author: rose-pine
-  stars: 271
+  stars: 272
   added_date: '2026-02-17'
 - repo: egel/tmux-gruvbox
   description: Light and dark gruvbox color scheme
   author: egel
-  stars: 697
+  stars: 696
   added_date: '2026-02-17'
 - repo: o0th/tmux-nova
   description: Fully customizable theme system for Tmux
   author: o0th
-  stars: 212
+  stars: 210
   added_date: '2026-02-17'
 - repo: wfxr/tmux-power
   description: Eight powerline-style theme variants
@@ -61,12 +61,12 @@
 - repo: semi710/minimal-tmux-status
   description: Minimal and clean status bar theme
   author: semi710
-  stars: 272
+  stars: 273
   added_date: '2026-02-17'
 - repo: erikw/tmux-dark-notify
   description: Auto-switch dark and light mode on macOS
   author: erikw
-  stars: 96
+  stars: 98
   added_date: '2026-02-17'
 - repo: ivnvxd/tmux-snazzy
   description: Elegant theme with bright colors
@@ -91,7 +91,7 @@
 - repo: vaaleyard/tmux-dotbar
   description: Simple and minimalist dot-style status bar theme
   author: vaaleyard
-  stars: 275
+  stars: 278
   added_date: '2026-02-17'
 - repo: thekylehuang/cole-tmux
   description: Stationery-inspired minimal theme with vintage earth tones
@@ -106,7 +106,7 @@
 - repo: binoymanoj/tmux-minimal-theme
   description: Clean minimal customizable theme with built-in system monitoring
   author: binoymanoj
-  stars: 47
+  stars: 49
   added_date: '2026-02-19'
 - repo: pavlemmm/tmux-minithemes
   description: Collection of beautiful minimal themes with multiple color schemes
