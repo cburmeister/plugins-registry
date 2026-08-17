@@ -1,12 +1,12 @@
 - repo: tmux-plugins/tmux-sensible
   description: A set of tmux options that should be acceptable to everyone
   author: tmux-plugins
-  stars: 2216
+  stars: 2218
   added_date: '2026-02-17'
 - repo: tmux-plugins/tmux-yank
   description: Tmux plugin for copying to system clipboard
   author: tmux-plugins
-  stars: 3095
+  stars: 3096
   added_date: '2026-02-17'
 - repo: tmux-plugins/tmux-copycat
   description: Enhanced tmux search with regex support
@@ -21,12 +21,12 @@
 - repo: tmux-plugins/tmux-logging
   description: Logging and screen capturing utilities
   author: tmux-plugins
-  stars: 1252
+  stars: 1254
   added_date: '2026-02-17'
 - repo: tmux-plugins/tmux-sidebar
   description: Directory tree sidebar for navigation
   author: tmux-plugins
-  stars: 657
+  stars: 658
   added_date: '2026-02-17'
 - repo: tmux-plugins/tmux-fpp
   description: Quick opening of file paths in editor
@@ -36,7 +36,7 @@
 - repo: laktak/extrakto
   description: Clipboard copy and fzf completions from output
   author: laktak
-  stars: 1135
+  stars: 1136
   added_date: '2026-02-17'
 - repo: NHDaly/tmux-better-mouse-mode
   description: Better mouse scroll and click configuration
@@ -46,12 +46,12 @@
 - repo: b0o/tmux-autoreload
   description: Automatically reload config file on change
   author: b0o
-  stars: 124
+  stars: 123
   added_date: '2026-02-17'
 - repo: jaclu/tmux-menus
   description: Popup menus for environment management
   author: jaclu
-  stars: 531
+  stars: 533
   added_date: '2026-02-17'
 - repo: jabirali/tmux-tilish
   description: Tiling window manager features inspired by i3
@@ -66,12 +66,12 @@
 - repo: rickstaa/tmux-notify
   description: Notify when long-running processes finish
   author: rickstaa
-  stars: 271
+  stars: 272
   added_date: '2026-02-17'
 - repo: whame/tmux-modal
   description: Modal mode for executing complex commands
   author: whame
-  stars: 219
+  stars: 218
   added_date: '2026-02-17'
 - repo: CrispyConductor/tmux-copy-toolkit
   description: Multi-utility copy and paste toolkit
@@ -81,7 +81,7 @@
 - repo: lost-melody/tmux-command-palette
   description: Keybinding search palette with fzf
   author: lost-melody
-  stars: 40
+  stars: 41
   added_date: '2026-02-17'
 - repo: Alkindi42/tmux-bitwarden
   description: Access Bitwarden login items from tmux
@@ -111,12 +111,12 @@
 - repo: sainnhe/tmux-fzf
   description: Manage tmux environment with fzf
   author: sainnhe
-  stars: 1482
+  stars: 1489
   added_date: '2026-02-17'
 - repo: alexwforsythe/tmux-which-key
   description: Customizable popup menu for keybinding discovery
   author: alexwforsythe
-  stars: 306
+  stars: 309
   added_date: '2026-02-17'
 - repo: lloydbond/tmux-floating-terminal
   description: Popup floating terminal window
@@ -141,7 +141,7 @@
 - repo: noscript/tmux-mighty-scroll
   description: Seamless terminal mouse scroll
   author: noscript
-  stars: 112
+  stars: 113
   added_date: '2026-02-17'
 - repo: navahas/tmux-grimoire
   description: Customizable floating shells for quick actions
@@ -151,7 +151,7 @@
 - repo: laktak/tome
   description: Interactive script playbooks for the terminal
   author: laktak
-  stars: 174
+  stars: 175
   added_date: '2026-02-17'
 - repo: loichyan/tmux-toggle-popup
   description: Create toggleable popup windows
@@ -196,7 +196,7 @@
 - repo: eduwass/tmux-palette
   description: Raycast-style fast and scriptable command palette for tmux
   author: eduwass
-  stars: 397
+  stars: 401
   added_date: "2026-05-19"
 - repo: Yahddyyp/tmux-simple-renamers
   description: Simple window and session renamer integrated with sesh and fzf

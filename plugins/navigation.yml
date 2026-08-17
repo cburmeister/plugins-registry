@@ -1,27 +1,27 @@
 - repo: tmux-plugins/tmux-pain-control
   description: Standard pane key-bindings for tmux
   author: tmux-plugins
-  stars: 864
+  stars: 863
   added_date: '2026-02-17'
 - repo: christoomey/vim-tmux-navigator
   description: Seamless navigation between Vim and tmux
   author: christoomey
-  stars: 6267
+  stars: 6271
   added_date: '2026-02-17'
 - repo: Morantron/tmux-fingers
   description: Vimium-like copy and paste hints
   author: Morantron
-  stars: 1458
+  stars: 1463
   added_date: '2026-02-17'
 - repo: fcsonline/tmux-thumbs
   description: Fast copy and paste with Rust-powered hints
   author: fcsonline
-  stars: 1092
+  stars: 1096
   added_date: '2026-02-17'
 - repo: schasse/tmux-jump
   description: Vimium and Easymotion-like navigation
   author: schasse
-  stars: 478
+  stars: 477
   added_date: '2026-02-17'
 - repo: wfxr/tmux-fzf-url
   description: Quick URL opening with fzf
@@ -31,7 +31,7 @@
 - repo: roosta/tmux-fuzzback
   description: Search scrollback buffer with fzf
   author: roosta
-  stars: 185
+  stars: 186
   added_date: '2026-02-17'
 - repo: IngoMeyer441/tmux-easy-motion
   description: Vim-easymotion-like pane navigation
@@ -46,7 +46,7 @@
 - repo: greymd/tmux-xpanes
   description: Terminal divider and pane utility
   author: greymd
-  stars: 2106
+  stars: 2108
   added_date: '2026-02-17'
 - repo: jaclu/tmux-mouse-swipe
   description: Switch window or session with right-click swipe
@@ -61,7 +61,7 @@
 - repo: alberti42/tmux-fzf-links
   description: Open any type of link with fzf
   author: alberti42
-  stars: 63
+  stars: 62
   added_date: '2026-02-17'
 - repo: kristopolous/tmux-gentrify
   description: Cut and paste panes between windows
@@ -87,7 +87,7 @@
   description: LazyVim-style which-key popup with nested groups and Nord theme
   author: nucc
   added_date: '2026-04-11'
-  stars: 35
+  stars: 36
 - repo: chris-paganon/tmux-cdls
   host: codeberg.org
   description: displays the content of the current directory in a pane with live updates
@@ -97,5 +97,5 @@
 - repo: AndreVicencio/tmux-flash
   description: Search visible copy-mode text and jump to labeled matches
   author: AndreVicencio
-  stars: 8
+  stars: 9
   added_date: "2026-07-24"
