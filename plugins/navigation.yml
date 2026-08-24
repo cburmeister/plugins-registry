@@ -1,42 +1,42 @@
 - repo: tmux-plugins/tmux-pain-control
   description: Standard pane key-bindings for tmux
   author: tmux-plugins
-  stars: 863
+  stars: 865
   added_date: '2026-02-17'
 - repo: christoomey/vim-tmux-navigator
   description: Seamless navigation between Vim and tmux
   author: christoomey
-  stars: 6271
+  stars: 6275
   added_date: '2026-02-17'
 - repo: Morantron/tmux-fingers
   description: Vimium-like copy and paste hints
   author: Morantron
-  stars: 1463
+  stars: 1465
   added_date: '2026-02-17'
 - repo: fcsonline/tmux-thumbs
   description: Fast copy and paste with Rust-powered hints
   author: fcsonline
-  stars: 1096
+  stars: 1095
   added_date: '2026-02-17'
 - repo: schasse/tmux-jump
   description: Vimium and Easymotion-like navigation
   author: schasse
-  stars: 477
+  stars: 478
   added_date: '2026-02-17'
 - repo: wfxr/tmux-fzf-url
   description: Quick URL opening with fzf
   author: wfxr
-  stars: 728
+  stars: 729
   added_date: '2026-02-17'
 - repo: roosta/tmux-fuzzback
   description: Search scrollback buffer with fzf
   author: roosta
-  stars: 186
+  stars: 187
   added_date: '2026-02-17'
 - repo: IngoMeyer441/tmux-easy-motion
   description: Vim-easymotion-like pane navigation
   author: IngoMeyer441
-  stars: 105
+  stars: 106
   added_date: '2026-02-17'
 - repo: jaclu/tmux-power-zoom
   description: Zoom pane to a separate window
@@ -46,7 +46,7 @@
 - repo: greymd/tmux-xpanes
   description: Terminal divider and pane utility
   author: greymd
-  stars: 2108
+  stars: 2104
   added_date: '2026-02-17'
 - repo: jaclu/tmux-mouse-swipe
   description: Switch window or session with right-click swipe
@@ -61,7 +61,7 @@
 - repo: alberti42/tmux-fzf-links
   description: Open any type of link with fzf
   author: alberti42
-  stars: 62
+  stars: 63
   added_date: '2026-02-17'
 - repo: kristopolous/tmux-gentrify
   description: Cut and paste panes between windows
@@ -82,7 +82,7 @@
   description: Interactive pane tree sidebar with Vim-style navigation
   author: sandudorogan
   added_date: '2026-04-11'
-  stars: 49
+  stars: 51
 - repo: nucc/tmux-which-key
   description: LazyVim-style which-key popup with nested groups and Nord theme
   author: nucc
