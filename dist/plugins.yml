@@ -12,13 +12,13 @@ plugins:
     description: "Visual feedback for AI agent states in pane borders and status bar"
     author: accessd
     category: ai
-    stars: 89
+    stars: 91
     added_date: "2026-04-11"
   - repo: samleeney/tmux-agent-status
     description: "Show which tmux sessions have AI agents working or idle"
     author: samleeney
     category: ai
-    stars: 260
+    stars: 262
     added_date: "2026-04-11"
   - repo: qeesung/tmux-scout
     description: "Monitor and navigate Claude Code and Codex sessions"
@@ -42,19 +42,19 @@ plugins:
     description: "tmux sidebar for coding agents Amp, Claude Code, Codex, and OpenCode with per-thread markers"
     author: Ataraxy-Labs
     category: ai
-    stars: 1216
+    stars: 1222
     added_date: "2026-05-19"
   - repo: snirt/tmux-agents-mon
     description: "Monitor AI coding agents in tmux panes with sidebar and status-line views"
     author: snirt
     category: ai
-    stars: 17
+    stars: 19
     added_date: "2026-07-24"
   - repo: vieitesss/agent-radar
     description: "List and switch between coding agent panes with status and completion notifications"
     author: vieitesss
     category: ai
-    stars: 28
+    stars: 29
     added_date: "2026-07-24"
   - repo: tmux-plugins/tmux-example-plugin
     description: "Example plugin template for developers"
@@ -114,37 +114,37 @@ plugins:
     description: "Standard pane key-bindings for tmux"
     author: tmux-plugins
     category: navigation
-    stars: 865
+    stars: 866
     added_date: "2026-02-17"
   - repo: christoomey/vim-tmux-navigator
     description: "Seamless navigation between Vim and tmux"
     author: christoomey
     category: navigation
-    stars: 6275
+    stars: 6278
     added_date: "2026-02-17"
   - repo: Morantron/tmux-fingers
     description: "Vimium-like copy and paste hints"
     author: Morantron
     category: navigation
-    stars: 1465
+    stars: 1468
     added_date: "2026-02-17"
   - repo: fcsonline/tmux-thumbs
     description: "Fast copy and paste with Rust-powered hints"
     author: fcsonline
     category: navigation
-    stars: 1095
+    stars: 1096
     added_date: "2026-02-17"
   - repo: schasse/tmux-jump
     description: "Vimium and Easymotion-like navigation"
     author: schasse
     category: navigation
-    stars: 478
+    stars: 479
     added_date: "2026-02-17"
   - repo: wfxr/tmux-fzf-url
     description: "Quick URL opening with fzf"
     author: wfxr
     category: navigation
-    stars: 729
+    stars: 730
     added_date: "2026-02-17"
   - repo: roosta/tmux-fuzzback
     description: "Search scrollback buffer with fzf"
@@ -192,7 +192,7 @@ plugins:
     description: "Cut and paste panes between windows"
     author: kristopolous
     category: navigation
-    stars: 16
+    stars: 17
     added_date: "2026-02-17"
   - repo: artemave/tmux_super_fingers
     description: "Open file links from terminal in Vim"
@@ -210,7 +210,7 @@ plugins:
     description: "Interactive pane tree sidebar with Vim-style navigation"
     author: sandudorogan
     category: navigation
-    stars: 51
+    stars: 53
     added_date: "2026-04-11"
   - repo: nucc/tmux-which-key
     description: "LazyVim-style which-key popup with nested groups and Nord theme"
@@ -235,19 +235,19 @@ plugins:
     description: "Persists tmux environment across system restarts"
     author: tmux-plugins
     category: session
-    stars: 13014
+    stars: 13021
     added_date: "2026-02-17"
   - repo: tmux-plugins/tmux-continuum
     description: "Continuous saving of tmux environment"
     author: tmux-plugins
     category: session
-    stars: 4063
+    stars: 4068
     added_date: "2026-02-17"
   - repo: tmux-plugins/tmux-sessionist
     description: "Lightweight session manipulation utilities"
     author: tmux-plugins
     category: session
-    stars: 468
+    stars: 469
     added_date: "2026-02-17"
   - repo: 27medkamal/tmux-session-wizard
     description: "Session creation with fzf and zoxide"
@@ -265,7 +265,7 @@ plugins:
     description: "Smart terminal session manager"
     author: joshmedeski
     category: session
-    stars: 2780
+    stars: 2797
     added_date: "2026-02-17"
   - repo: omerxx/tmux-sessionx
     description: "Session manager with zoxide and fuzzy finding"
@@ -349,7 +349,7 @@ plugins:
     description: "CPU usage percentage display"
     author: tmux-plugins
     category: statusbar
-    stars: 536
+    stars: 539
     added_date: "2026-02-17"
   - repo: tmux-plugins/tmux-online-status
     description: "Display online and offline status"
@@ -361,31 +361,31 @@ plugins:
     description: "Highlights when prefix key is pressed"
     author: tmux-plugins
     category: statusbar
-    stars: 672
+    stars: 673
     added_date: "2026-02-17"
   - repo: thewtex/tmux-mem-cpu-load
     description: "CPU, RAM, and system load monitor"
     author: thewtex
     category: statusbar
-    stars: 1124
+    stars: 1127
     added_date: "2026-02-17"
   - repo: arl/gitmux
     description: "Show Git status in the status bar"
     author: arl
     category: statusbar
-    stars: 791
+    stars: 793
     added_date: "2026-02-17"
   - repo: MunifTanjim/tmux-mode-indicator
     description: "Display current active Tmux mode"
     author: MunifTanjim
     category: statusbar
-    stars: 198
+    stars: 199
     added_date: "2026-02-17"
   - repo: ofirgall/tmux-window-name
     description: "Smart automatic window naming"
     author: ofirgall
     category: statusbar
-    stars: 296
+    stars: 297
     added_date: "2026-02-17"
   - repo: ilya-manin/tmux-network-bandwidth
     description: "Network bandwidth usage display"
@@ -403,7 +403,7 @@ plugins:
     description: "Split status bar into two rows"
     author: charlietag
     category: statusbar
-    stars: 32
+    stars: 33
     added_date: "2026-02-17"
   - repo: TheSast/tmux-transient-status
     description: "Auto-hide status bar when inactive"
@@ -415,7 +415,7 @@ plugins:
     description: "Nerd Font icons for window names"
     author: joshmedeski
     category: statusbar
-    stars: 222
+    stars: 224
     added_date: "2026-02-17"
   - repo: alexanderjeurissen/tmux-world-clock
     description: "Display multiple timezone clocks"
@@ -433,7 +433,7 @@ plugins:
     description: "Dynamic powerline-style status bar segments"
     author: erikw
     category: statusbar
-    stars: 3833
+    stars: 3836
     added_date: "2026-02-17"
   - repo: tmux-plugins/tmux-net-speed
     description: "Upload and download speed monitor"
@@ -475,7 +475,7 @@ plugins:
     description: "Quick opening of URLs from terminal"
     author: tmux-plugins
     category: statusbar
-    stars: 291
+    stars: 292
     added_date: "2026-02-17"
   - repo: samoshkin/tmux-plugin-sysstat
     description: "CPU, memory, swap, load average, and net I/O metrics"
@@ -487,7 +487,7 @@ plugins:
     description: "Ultimate status bar framework with many widgets"
     author: fabioluciano
     category: statusbar
-    stars: 604
+    stars: 605
     added_date: "2026-02-17"
   - repo: barlevalon/tmux-nowplaying
     description: "Display macOS system-wide Now Playing info"
@@ -559,13 +559,13 @@ plugins:
     description: "Soothing pastel theme for Tmux"
     author: catppuccin
     category: theme
-    stars: 3154
+    stars: 3158
     added_date: "2026-02-17"
   - repo: dracula/tmux
     description: "Dark theme for Tmux"
     author: dracula
     category: theme
-    stars: 852
+    stars: 853
     added_date: "2026-02-17"
   - repo: nordtheme/tmux
     description: "Arctic north-bluish clean color theme"
@@ -595,19 +595,19 @@ plugins:
     description: "Eight powerline-style theme variants"
     author: wfxr
     category: theme
-    stars: 698
+    stars: 699
     added_date: "2026-02-17"
   - repo: jimeh/tmux-themepack
     description: "Collection of various themes for Tmux"
     author: jimeh
     category: theme
-    stars: 1757
+    stars: 1756
     added_date: "2026-02-17"
   - repo: janoamaral/tokyo-night-tmux
     description: "Tokyo Night color scheme for Tmux"
     author: janoamaral
     category: theme
-    stars: 572
+    stars: 574
     added_date: "2026-02-17"
   - repo: Nybkox/tmux-ukiyo
     description: "Dark color scheme inspired by Hokusai artwork"
@@ -619,19 +619,19 @@ plugins:
     description: "Solarized color implementation for Tmux"
     author: seebi
     category: theme
-    stars: 1103
+    stars: 1102
     added_date: "2026-02-17"
   - repo: 2KAbhishek/tmux2k
     description: "Customizable powerline status bar framework"
     author: 2KAbhishek
     category: theme
-    stars: 452
+    stars: 457
     added_date: "2026-02-17"
   - repo: semi710/minimal-tmux-status
     description: "Minimal and clean status bar theme"
     author: semi710
     category: theme
-    stars: 275
+    stars: 274
     added_date: "2026-02-17"
   - repo: erikw/tmux-dark-notify
     description: "Auto-switch dark and light mode on macOS"
@@ -667,13 +667,13 @@ plugins:
     description: "Simple and minimalist dot-style status bar theme"
     author: vaaleyard
     category: theme
-    stars: 284
+    stars: 287
     added_date: "2026-02-17"
   - repo: thekylehuang/cole-tmux
     description: "Stationery-inspired minimal theme with vintage earth tones"
     author: thekylehuang
     category: theme
-    stars: 10
+    stars: 11
     added_date: "2026-02-19"
   - repo: tarquibrian/vanzi
     description: "Clean and minimalist tmux theme"
@@ -697,19 +697,19 @@ plugins:
     description: "A set of tmux options that should be acceptable to everyone"
     author: tmux-plugins
     category: utility
-    stars: 2217
+    stars: 2220
     added_date: "2026-02-17"
   - repo: tmux-plugins/tmux-yank
     description: "Tmux plugin for copying to system clipboard"
     author: tmux-plugins
     category: utility
-    stars: 3097
+    stars: 3100
     added_date: "2026-02-17"
   - repo: tmux-plugins/tmux-copycat
     description: "Enhanced tmux search with regex support"
     author: tmux-plugins
     category: utility
-    stars: 1204
+    stars: 1205
     added_date: "2026-02-17"
   - repo: tmux-plugins/tmux-open
     description: "Open highlighted files and URLs from copy mode"
@@ -727,7 +727,7 @@ plugins:
     description: "Directory tree sidebar for navigation"
     author: tmux-plugins
     category: utility
-    stars: 658
+    stars: 662
     added_date: "2026-02-17"
   - repo: tmux-plugins/tmux-fpp
     description: "Quick opening of file paths in editor"
@@ -739,7 +739,7 @@ plugins:
     description: "Clipboard copy and fzf completions from output"
     author: laktak
     category: utility
-    stars: 1137
+    stars: 1139
     added_date: "2026-02-17"
   - repo: NHDaly/tmux-better-mouse-mode
     description: "Better mouse scroll and click configuration"
@@ -757,19 +757,19 @@ plugins:
     description: "Popup menus for environment management"
     author: jaclu
     category: utility
-    stars: 535
+    stars: 536
     added_date: "2026-02-17"
   - repo: jabirali/tmux-tilish
     description: "Tiling window manager features inspired by i3"
     author: jabirali
     category: utility
-    stars: 492
+    stars: 493
     added_date: "2026-02-17"
   - repo: 2KAbhishek/tmux-tilit
     description: "Tiling window manager keybindings"
     author: 2KAbhishek
     category: utility
-    stars: 86
+    stars: 87
     added_date: "2026-02-17"
   - repo: rickstaa/tmux-notify
     description: "Notify when long-running processes finish"
@@ -781,7 +781,7 @@ plugins:
     description: "Modal mode for executing complex commands"
     author: whame
     category: utility
-    stars: 219
+    stars: 220
     added_date: "2026-02-17"
   - repo: CrispyConductor/tmux-copy-toolkit
     description: "Multi-utility copy and paste toolkit"
@@ -811,7 +811,7 @@ plugins:
     description: "Smooth scrolling in copy mode"
     author: azorng
     category: utility
-    stars: 77
+    stars: 78
     added_date: "2026-02-17"
   - repo: graemedavidson/tmux-pane-focus
     description: "Auto-resizing focused pane splits"
@@ -829,19 +829,19 @@ plugins:
     description: "Manage tmux environment with fzf"
     author: sainnhe
     category: utility
-    stars: 1490
+    stars: 1493
     added_date: "2026-02-17"
   - repo: alexwforsythe/tmux-which-key
     description: "Customizable popup menu for keybinding discovery"
     author: alexwforsythe
     category: utility
-    stars: 313
+    stars: 316
     added_date: "2026-02-17"
   - repo: lloydbond/tmux-floating-terminal
     description: "Popup floating terminal window"
     author: lloydbond
     category: utility
-    stars: 19
+    stars: 20
     added_date: "2026-02-17"
   - repo: thepante/tmux-git-autofetch
     description: "Automatically fetch git repos in current session"
@@ -853,19 +853,19 @@ plugins:
     description: "Nvim-Tree file explorer sidebar"
     author: kiyoon
     category: utility
-    stars: 205
+    stars: 204
     added_date: "2026-02-17"
   - repo: gcla/tmux-wormhole
     description: "Download files with magic wormhole"
     author: gcla
     category: utility
-    stars: 121
+    stars: 122
     added_date: "2026-02-17"
   - repo: noscript/tmux-mighty-scroll
     description: "Seamless terminal mouse scroll"
     author: noscript
     category: utility
-    stars: 113
+    stars: 114
     added_date: "2026-02-17"
   - repo: navahas/tmux-grimoire
     description: "Customizable floating shells for quick actions"
@@ -877,7 +877,7 @@ plugins:
     description: "Interactive script playbooks for the terminal"
     author: laktak
     category: utility
-    stars: 175
+    stars: 176
     added_date: "2026-02-17"
   - repo: loichyan/tmux-toggle-popup
     description: "Create toggleable popup windows"
@@ -931,7 +931,7 @@ plugins:
     description: "Raycast-style fast and scriptable command palette for tmux"
     author: eduwass
     category: utility
-    stars: 403
+    stars: 404
     added_date: "2026-05-19"
   - repo: Yahddyyp/tmux-simple-renamers
     description: "Simple window and session renamer integrated with sesh and fzf"
